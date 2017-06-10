@@ -54,7 +54,7 @@ A: vcredist 2015 x64 and net 4.5.2 (skip for win 10)
 
 Q: Game and windows settings ?
 
-A: ENGLISH language, 100% scaling in windows, 1920x1080 or more (1680x1050 limited support), Monitor#1, windows 7sp1-10 x64, no CYRILLIC/specil symbols/spaces in windows username
+A: ENGLISH language, 100% scaling in windows, 1920x1080 or more (1680x1050 limited support), Monitor#1, windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
 Q: How fast bot can complete 3 daily tiers ?
@@ -150,6 +150,6 @@ dlr5668#5210
 
 Bot **wont find** lic file if it doesnt have this exact name ("9DF9-F123-10E1-C82F-36AB.lic" - wrong name, "lic.lic" - wrong, "lic" - right).
 
-![alt text](https://lh3.googleusercontent.com/-Ql9a-2EueoA/WRjBTb6TGPI/AAAAAAAAPx0/VResird4kKwlT0rysXt3ZsUkFmYKzvZugCHM/s0/explorer_2017-05-14_23-42-40.png "where to place file")
+![alt text](https://lh3.googleusercontent.com/-ECHfLApeYBg/WTvV-WoCK8I/AAAAAAAAQ-Q/rtxMKHLGgvMU2ESLfpsPGcRs0xyaE09dQCHM/s0/explorer_2017-06-10_14-20-22.png "where to place file")
 
 3. Restart bot.
