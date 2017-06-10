@@ -36,6 +36,7 @@ Bot is updated for OBT **0.9.6** patch, 50+ happy users
 * Restart gwent every few hours (memory leaks)
 * Random sleep timers and coordinates for clicking
 * Smart mulligan
+* Random bot exe/window name
 
 # Gwent settings <a name="settings"></a>
 ## Use for all resolution
