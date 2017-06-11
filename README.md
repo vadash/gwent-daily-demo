@@ -21,7 +21,7 @@ Demo limit *25 runs x 10 days x up to 5 games each session*
 
 Bot is updated for OBT **0.9.6** patch, many happy users
 
-![alt text](https://lh3.googleusercontent.com/-fJXc_E5dDvc/WRzG_1JhL_I/AAAAAAAAP2s/3V5EbjM8Qao_AxOlHN9UTmTQHsJr6K46ACHM/s0/Discord_2017-05-16_21-41-46.png "discord")
+![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
 # Features <a name="features"></a>
 * No injecting. Its safer to use and harder to detect
