@@ -19,7 +19,7 @@ https://github.com/vadash/gwent-daily-demo/releases/latest
 
 Demo limit *25 runs x 10 days x up to 5 games each session*
 
-Bot is updated for OBT **0.9.6** patch, many happy users
+Bot is updated for OBT **0.9.7** patch, many happy users
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
