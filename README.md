@@ -119,7 +119,9 @@ magnet:?xt=urn:btih:AF0CF9EA0673B98BF10DB89637C1A8389C968878&tr=http%3A%2F%2Fbt.
 Select "en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso"
 
 ## Vmware settings
-1600 (win 7 lite)-1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 15-20 gb HDD
+SSD settings: 1600 (win 7 lite)-1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 15-20 gb HDD
+
+For HDD increase RAM to 2500-3000 and VRAM to 1000-1500.
 
 ![alt text](https://lh3.googleusercontent.com/-Vxtj8GqpQfM/WTUiID5LHeI/AAAAAAAAQqE/nR8DJvOqbAgABeziy3t69p1lJWf-ciz7QCHM/s0/vmware_2017-06-05_12-19-25.png "SSD botting")
 
