@@ -155,4 +155,6 @@ Bot **wont find** lic file if it doesnt have this exact name ("9DF9-F123-10E1-C8
 
 ![alt text](https://lh3.googleusercontent.com/-ECHfLApeYBg/WTvV-WoCK8I/AAAAAAAAQ-Q/rtxMKHLGgvMU2ESLfpsPGcRs0xyaE09dQCHM/s0/explorer_2017-06-10_14-20-22.png "where to place file")
 
-3. Restart bot.
+3. Restart bot. 
+
+PS Avast auto sandbox mode will change your HWID too. Disable it (sandbox) for bot.
