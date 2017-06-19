@@ -1,4 +1,4 @@
-<span style="color:red"> **vacation** </span> 05.07.2017 - 19.07.2017 add me in discord I will contact later
+**vacation** 05.07.2017 - 19.07.2017 add me in discord I will contact later
 
 # Table of contents
 1. [Introduction](#introduction)
