@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Download](#download)
 3. [Features](#features)
-4. [Supporetd card list](#cards)
+4. [Supported card list](#cards)
 5. [Settings](#settings)
 6. [FAQ](#faq)
 7. [Winrate](#winrate)
