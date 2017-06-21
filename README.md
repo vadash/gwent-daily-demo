@@ -4,12 +4,13 @@
 1. [Introduction](#introduction)
 2. [Download](#download)
 3. [Features](#features)
-4. [Settings](#settings)
-5. [FAQ](#faq)
-6. [Winrate](#winrate)
-7. [Decks](#dicks)
-8. [Vmware gudie](#vmware)
-9. [How to register full version](#register)
+4. [Supporetd card list](#cards)
+5. [Settings](#settings)
+6. [FAQ](#faq)
+7. [Winrate](#winrate)
+8. [Decks](#dicks)
+9. [Vmware gudie](#vmware)
+10. [How to register full version](#register)
 
 # Introduction <a name="introduction"></a>
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
@@ -39,6 +40,9 @@ Bot is updated for OBT **0.9.7** patch, many happy users
 * Random sleep timers and coordinates for clicking
 * Smart mulligan
 * Random bot exe/window name
+
+# Supported cards list <a name="cards"></a>
+Moved to discord. Lets keep it private
 
 # Gwent settings <a name="settings"></a>
 ## Use for all resolution
