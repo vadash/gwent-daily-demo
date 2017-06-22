@@ -101,7 +101,7 @@ A: Vmware 12+ pro + vmware tools
 
 # Winrate examples (OBT) <a name="winrate"></a>
 
-![alt text](https://i.imgur.com/RzluDMh.png "best deck")
+![alt text](https://lh3.googleusercontent.com/-vfgF5xnkXmw/WUxO0rhi25I/AAAAAAAARYk/2KUOSI6X3Ws3m-h7IKJpJsAxgJgOnXVmACHMYCw/s0/BotWinrate.png "best deck")
 
 # Decks (better decks in discord) <a name="dicks"></a>
 ST starter OBT (up to 500 scraps)
