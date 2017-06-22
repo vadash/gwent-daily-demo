@@ -66,7 +66,7 @@ A: ENGLISH language, 100% scaling in windows, 1920x1080 or more (1680x1050 limit
 
 Q: How fast bot can complete 3 daily tiers ?
 
-A: 6.5 hours. Assuming 34 games over 7 hours, 40% winrate. So for 3 tiers it will be 42 / (0.4 * 2 + 0.6 * 1) = 30 games or 30/34 * 7 = 6.2 hours
+A: 6.5 hours. Assuming 34 games over 7 hours, 40% winrate. So for 3 tiers it will be 42 rounds / (0.4 winrate * 2 + 0.6 lose chance * 1) / 34 * 7 (34 games in 7 hours) * 60 = ~370 minutes
 
 ![alt text](https://lh3.googleusercontent.com/-AnNGBw1EgWw/WTEVcei-yPI/AAAAAAAAQis/wTjXMTfXNc81LMRnkQ2TBYjK4rVLanx8QCHM/s0/chrome_2017-06-02_10-36-14.png "Daily rewards")
 
