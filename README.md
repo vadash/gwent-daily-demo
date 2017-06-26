@@ -64,9 +64,15 @@ Q: Game and windows settings ?
 A: ENGLISH language, 100% scaling in windows, 1920x1080 or more (1680x1050 limited support), Monitor#1, windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
-Q: How fast bot can complete 3 daily tiers ?
+Q: How fast bot can complete X daily tiers ?
 
-A: 6.5 hours. Assuming 34 games over 7 hours, 40% winrate. So for 3 tiers it will be 42 rounds / (0.4 winrate * 2 + 0.6 lose chance * 1) / 34 * 7 (34 games in 7 hours) * 60 = ~370 minutes
+A: Assuming 44 games over 8.5 hours, 45% winrate => 11.6 minutes average game, 0.85 rounds for lose (sometimes enemy will 2-0 you)
+
+2 tiers = 18 / (0.45 * 2 + 0.55 * 0.85) * 11.6 = **155** minutes
+
+3 tiers = 42 / (0.45 * 2 + 0.55 * 0.85) * 11.6 = **360** minutes
+
+4 tiers (max) = 66 / (0.45 * 2 + 0.55 * 0.85) * 11.6 = **560** minutes
 
 ![alt text](https://lh3.googleusercontent.com/-AnNGBw1EgWw/WTEVcei-yPI/AAAAAAAAQis/wTjXMTfXNc81LMRnkQ2TBYjK4rVLanx8QCHM/s0/chrome_2017-06-02_10-36-14.png "Daily rewards")
 
