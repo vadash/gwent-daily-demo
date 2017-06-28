@@ -20,7 +20,7 @@ Get last setup.exe
 
 https://github.com/vadash/gwent-daily-demo/releases/latest
 
-Demo limit *25 runs x 10 days x up to 5 games each session*
+Demo limit *25 runs x 10 days x few games each session*
 
 Bot is updated for OBT **0.9.7** patch, many happy users
 
