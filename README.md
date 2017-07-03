@@ -41,7 +41,6 @@ Bot is updated for OBT **0.9.7** patch, many happy users
 * Smart mulligan
 * Random bot exe/window name
 
-# Supported cards list <a name="cards"></a>
 # Supported cards (DO NOT use *premium* cards) 
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
 
