@@ -42,7 +42,16 @@ Bot is updated for OBT **0.9.7** patch, many happy users
 * Random bot exe/window name
 
 # Supported cards list <a name="cards"></a>
-Moved to discord. Lets keep it private
+# Supported cards (DO NOT use *premium* cards) 
+**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
+
+**Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon (dont use Sheldon with potions), Alzur cross, Commanders Horn (only with extreme melee stacking)
+
+**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Human saskia, Yennefer: The Conjurer, Ithline, Avallach, Triss Butt, Milva
+
+**Leader**: Brouver Hoog only
+
+Bot can play unsuported cards too. Keep it minimum and simple like Tremors
 
 # Gwent settings <a name="settings"></a>
 ## Use for all resolution
