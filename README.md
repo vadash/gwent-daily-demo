@@ -39,7 +39,7 @@ Bot is updated for OBT **0.9.x** patch, many happy users
 * Smart mulligan
 * Random bot exe/window name
 
-# Supported cards (DO NOT use *premium* cards) <a name="cards"></a>
+# Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon (dont use Sheldon with potions), Alzur cross, Commanders Horn (only with extreme melee stacking)
