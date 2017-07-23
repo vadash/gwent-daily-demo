@@ -1,5 +1,3 @@
-**vacation** 05.07.2017 - 19.07.2017 add me in discord I will contact later
-
 # Table of contents
 1. [Introduction](#introduction)
 2. [Download](#download)
@@ -22,7 +20,7 @@ https://github.com/vadash/gwent-daily-demo/releases/latest
 
 Demo limit *25 runs x 10 days x few games each session*
 
-Bot is updated for OBT **0.9.7** patch, many happy users
+Bot is updated for OBT **0.9.x** patch, many happy users
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
@@ -41,7 +39,7 @@ Bot is updated for OBT **0.9.7** patch, many happy users
 * Smart mulligan
 * Random bot exe/window name
 
-# Supported cards (DO NOT use *premium* cards) 
+# Supported cards (DO NOT use *premium* cards) <a name="cards"></a>
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon (dont use Sheldon with potions), Alzur cross, Commanders Horn (only with extreme melee stacking)
@@ -115,7 +113,9 @@ A: Vmware 12+ pro + vmware tools
 
 # Winrate examples (OBT) <a name="winrate"></a>
 
-![alt text](https://lh3.googleusercontent.com/-vfgF5xnkXmw/WUxO0rhi25I/AAAAAAAARYk/2KUOSI6X3Ws3m-h7IKJpJsAxgJgOnXVmACHMYCw/s0/BotWinrate.png "best deck")
+![alt text](https://lh3.googleusercontent.com/-vfgF5xnkXmw/WUxO0rhi25I/AAAAAAAARYk/2KUOSI6X3Ws3m-h7IKJpJsAxgJgOnXVmACHMYCw/s0/BotWinrate.png "old")
+
+![alt text](https://lh3.googleusercontent.com/-n3cUZ3Oz5Yg/WXRdx4w0viI/AAAAAAAARpM/bF7_jzdOgJ8lKJgmZ7cPg_aR_dIYIiWawCHMYCw/s0/Gwent_2017-07-23_11-26-43.png "7/23/2017")
 
 # Decks (better decks in discord) <a name="dicks"></a>
 ST starter OBT (up to 500 scraps)
