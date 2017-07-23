@@ -89,9 +89,9 @@ A: Its HardWare IDentification key. Its generated based on CPU serial number and
 
 Q: How does the bot determine which deck to use?
 
-A: Last played deck (top left). You have to help bot and click it one time.
+A: Anyone banned yet ?
 
-Q: Do I start bot at the main menu?
+Q: No bans reported so far
 
 A: Yes. Ingame works too.
 
@@ -101,7 +101,7 @@ A: Nope, its both for safety and impossible since we dont inject in game. People
 
 Q: Do I need additional key for virtual machine ?
 
-A: Yep. Also make sure to take snapshot after you install windows.
+A: Yep
 
 Q: Can I use gwent tracker with bot ?
 
