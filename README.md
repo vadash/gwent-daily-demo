@@ -42,7 +42,7 @@ Bot is updated for OBT **0.9.x** patch, many happy users
 # Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
 
-**Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon (dont use Sheldon with potions), Alzur cross, Commanders Horn (only with extreme melee stacking)
+**Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
 **Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Human saskia, Yennefer: The Conjurer, Ithline, Avallach, Triss Butt, Milva
 
