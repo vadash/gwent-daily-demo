@@ -51,7 +51,7 @@ Bot is updated for OBT **0.9.x** patch, many happy users
 Bot can play unsuported cards too. Keep it minimum and simple like Tremors
 
 # Gwent settings <a name="settings"></a>
-## Use for all resolution
+## general
 
 ![alt text](https://lh3.googleusercontent.com/-j3mRUs9mH7A/WSgeINPQgBI/AAAAAAAAQKI/7mGVKLE8SsU176zYujmZtMBuR6vZ0g3zwCHM/s0/Gwent_2017-05-26_15-22-51.png "gwent settings")
 
