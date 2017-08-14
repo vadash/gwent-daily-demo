@@ -55,12 +55,12 @@ Bot can play unsuported cards too. Keep it minimum and simple like Tremors
 
 ![alt text](https://lh3.googleusercontent.com/-j3mRUs9mH7A/WSgeINPQgBI/AAAAAAAAQKI/7mGVKLE8SsU176zYujmZtMBuR6vZ0g3zwCHM/s0/Gwent_2017-05-26_15-22-51.png "gwent settings")
 
-## 1440p or 1680x1050 (skip for 1080p)
-Set gwent like this and start bot
+## non 1920x1080 resolution (1440p, 4k etc)
+Set gwent like this and start bot. It will remove gwent's window title, change size to 1920x1080 and move it to top left. You can skip it for 1080p and bot with fullscreen
 
 ![alt text](https://lh3.googleusercontent.com/-PMuQcCzcyBI/WPsgFKsmE_I/AAAAAAAAPa4/NGGzHUB_OB4/s0/Gwent_2017-04-22_12-19-00.png "!1080")
 
-## scaling (skip with 100%)
+## scaling (skip with 100% windows scaling)
 1) Find gwent game exe (not gog)
 
 ![alt text](https://lh3.googleusercontent.com/-Riow_0Aq0t8/WYNSnp25eTI/AAAAAAAAR3o/n2S9JfBVz1gW3nGxFVOBsaugfoMsUp_gACHMYCw/s0/explorer_2017-08-03_19-43-08.png "scaling1")
