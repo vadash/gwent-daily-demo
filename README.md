@@ -1,17 +1,34 @@
 # Table of contents
-1. [Introduction](#introduction)
-2. [Download](#download)
-3. [Features](#features)
-4. [Supported card list](#cards)
-5. [Settings](#settings)
-6. [FAQ](#faq)
-7. [Winrate](#winrate)
-8. [Decks](#dicks)
-9. [Vmware gudie](#vmware)
-10. [How to register full version](#register)
+1. [Download](#download)
+2. [Features](#features)
+3. [Supported card list](#cards)
+4. [Settings](#settings)
+5. [FAQ](#faq)
+6. [Winrate](#winrate)
+7. [Decks](#dicks)
+8. [Vmware gudie](#vmware)
+9. [How to register full version](#register)
 
 # Introduction <a name="introduction"></a>
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
+
+# Why dorfs?
+This deck has polarizing matchups and easy to pilot. We are either lose or win hard.
+
+# Features <a name="features"></a>
+* No injecting. Its safer to use and harder to detect
+* Bot plays minions with position in mind. For example gold cards to the right, regular ones to the left
+* Emotes support
+* Farms 370 ore and 145 scraps over 6 hours
+* Up to 25-50% win rate. It depends on your casual MMR, account level and deck used
+* Pass on round win without wasting extra cards
+* Human like mouse movement
+* Will GG after match
+* Close defeat / victory / dc / forfeit screens
+* Restart gwent every few hours (memory leaks)
+* Random sleep timers and coordinates for clicking
+* Smart mulligan
+* Random bot exe/window name
 
 # Download <a name="download"></a>
 Get last setup.exe 
@@ -29,21 +46,6 @@ https://github.com/vadash/gwent-daily-demo/releases/latest
 Bot is updated for OBT **0.9.x** patch, many happy users
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
-
-# Features <a name="features"></a>
-* No injecting. Its safer to use and harder to detect
-* Bot plays minions with position in mind. For example gold cards to the right, regular ones to the left
-* Emotes support
-* Farms 370 ore and 145 scraps over 6 hours
-* Up to 25-50% win rate. It depends on your casual MMR, account level and deck used
-* Pass on round win without wasting extra cards
-* Human like mouse movement
-* Will GG after match
-* Close defeat / victory / dc / forfeit screens
-* Restart gwent every few hours (memory leaks)
-* Random sleep timers and coordinates for clicking
-* Smart mulligan
-* Random bot exe/window name
 
 # Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost
