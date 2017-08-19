@@ -12,9 +12,6 @@
 # Introduction <a name="introduction"></a>
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
-# Why dorfs?
-This deck has polarizing matchups and easy to pilot. We are either lose or win hard.
-
 # Features <a name="features"></a>
 * No injecting. Its safer to use and harder to detect
 * Bot plays minions with position in mind. For example gold cards to the right, regular ones to the left
@@ -31,19 +28,17 @@ This deck has polarizing matchups and easy to pilot. We are either lose or win h
 * Random bot exe/window name
 
 # Download <a name="download"></a>
-Get last setup.exe 
+
+```diff
+- Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
+```
+Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
 ```diff
 - Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
 ```
 
-https://github.com/vadash/gwent-daily-demo/releases/latest
-
-```diff
-- Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
-```
-
-Bot is updated for OBT **0.9.x** patch, many happy users
+Bot is updated for OBT **0.9.x** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
@@ -86,7 +81,7 @@ Set gwent like this and start bot. It will remove gwent's window title, change s
 # FAQ <a name="faq"></a>
 Q: Any dependency ?
 
-A: vcredist 2015 x64 and net 4.5.2 (skip for win 10)
+A: vcredist 2013 x64, 2015 x64 and net 4.5.2 (skip for win 10)
 
 Q: Game and windows settings ?
 
