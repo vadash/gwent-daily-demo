@@ -85,7 +85,7 @@ A: vcredist 2013 x64, 2015 x64 and net 4.5.2 (skip for win 10)
 
 Q: Game and windows settings ?
 
-A: ENGLISH language, 100% scaling in windows, 1920x1080 or more (1680x1050 limited support), Monitor#1, windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username
+A: gwent's ENGLISH language, 1920x1080 or more (1680x1050 limited support), windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
 Q: How fast bot can complete X daily tiers ?
