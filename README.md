@@ -13,6 +13,7 @@
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
+* Can bot casual / ranked. Bot can get rank 18 with some luck and best deck (as of 08/21/2017). 
 * No injecting. Its safer to use and harder to detect
 * Bot plays minions with position in mind. For example gold cards to the right, regular ones to the left
 * Emotes support
