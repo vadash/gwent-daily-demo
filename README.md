@@ -181,6 +181,7 @@ https://goo.gl/photos/vC2aA8zfiBoqUcPw7
 # Full version
 DM me @ discord:
 dlr5668#5210
+https://discord.gg/P2XdSrR
 
 # How to register bot after you buy it <a name="register"></a>
 
