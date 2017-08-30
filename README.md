@@ -44,11 +44,11 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
 # Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Immune Boost, Dwarven Agitator
+**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light)
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
-**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva, Both zoltans
+**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva
 
 **Leader**: Brouver Hoog only
 
@@ -137,8 +137,10 @@ A: Vmware 12+ pro + vmware tools
 ![alt text](https://lh3.googleusercontent.com/-n3cUZ3Oz5Yg/WXRdx4w0viI/AAAAAAAARpM/bF7_jzdOgJ8lKJgmZ7cPg_aR_dIYIiWawCHMYCw/s0/Gwent_2017-07-23_11-26-43.png "7/23/2017")
 
 # Decks (better decks in discord) <a name="dicks"></a>
-ST starter OBT (up to 500 scraps)
-![alt text](https://lh3.googleusercontent.com/-ZHAjwRchU7Q/WSZZdepoXnI/AAAAAAAAQFY/GXYyccFTF2E6oS-nCVzpiDRxBlmEitlDwCHM/s0/Gwent_2017-05-25_07-11-29.png "ST 0")
+
+![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352086457109839872/Gwent_2017-08-29_16-45-31.png "ST 0")
+
+Replace silver / golds with bronze cards if you dont have them yet
 
 # Vmware guide <a name="vmware"></a>
 ## Important
