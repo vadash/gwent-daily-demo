@@ -35,6 +35,8 @@
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
+VirusTotal is around **6/64**. I am using combination of protector + cryptor that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
+
 ```diff
 - Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
 ```
