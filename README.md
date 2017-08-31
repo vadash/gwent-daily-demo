@@ -35,7 +35,7 @@
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **6/64**. I am using combination of protector + cryptor that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
+VirusTotal is around **4/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
 
 ```diff
 - Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
@@ -46,7 +46,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
 # Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light)
+**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
