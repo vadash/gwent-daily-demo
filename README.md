@@ -13,19 +13,18 @@
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
-* Can bot casual / ranked. Bot can get rank 18 with some luck and best deck (as of 08/21/2017). 
+* Can bot casual / ranked (got me to R18 at the end of first OBT season) 
 * No injecting. Its safer to use and harder to detect
-* Bot plays minions with position in mind. For example gold cards to the right, regular ones to the left
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
-* Up to 25-50% win rate. It depends on your casual MMR, account level and deck used
+* Up to 30-50% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
 * Pass on round win without wasting extra cards
 * Human like mouse movement
 * Will GG after match
 * Close defeat / victory / dc / forfeit screens
-* Restart gwent every few hours (memory leaks)
+* Can restart gwent every few hours (avoid memory leaks)
 * Random sleep timers and coordinates for clicking
-* Smart mulligan
+* Smart mulligan (with blacklisting)
 * Random bot exe/window name
 
 # Download <a name="download"></a>
@@ -35,17 +34,16 @@
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **4/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
+VirusTotal is around **3-4/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
 
 ```diff
 - Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
 ```
-
 Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
-# Supported cards (DO NOT use *animated* cards) <a name="cards"></a>
+# Supported cards (DO NOT use *animated* cards. Check discord for fresh list) <a name="cards"></a>
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
@@ -54,7 +52,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 **Leader**: Brouver Hoog only
 
-Bot can play unsuported cards too. Keep it minimum and simple like Tremors
+Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
