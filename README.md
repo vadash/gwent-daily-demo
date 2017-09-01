@@ -34,7 +34,9 @@
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **3-4/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
+VirusTotal is around **4/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want.
+
+https://www.virustotal.com/#/file/d1c25dfdb536e703f723f333b8b0f9a77761cec1c26780d968c64f7652496136/detection
 
 ```diff
 - Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
