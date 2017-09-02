@@ -50,7 +50,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
-**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva
+**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva, both Zoltans
 
 **Leader**: Brouver Hoog only
 
