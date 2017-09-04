@@ -82,13 +82,11 @@ Set gwent like this and start bot. It will remove gwent's window title, change s
 4) Reboot PC
 
 # FAQ <a name="faq"></a>
-Q: Any dependency ?
-
-A: vcredist 2013 x64, 2015 x64 and net 4.5.2 (skip for win 10)
 
 Q: Game and windows settings ?
 
-A: gwent's ENGLISH language, 1920x1080 or more (1680x1050 limited support), windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username
+A: gwent's ENGLISH language, 1920x1080 or more (1680x1050 limited support), windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username, vcredist 2013 x64, 2015 x64 and net 4.5.2 (skip for win 10)
+
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
 Q: How fast bot can complete X daily tiers ?
@@ -108,29 +106,9 @@ Q: WTF is HWID?
 A: Its HardWare IDentification key. Its generated based on CPU serial number and Motherboard serial. Looks like this
 ![alt text](https://lh3.googleusercontent.com/-GCnSAawXp0w/WN-QGuFfdWI/AAAAAAAAPCw/RwX7whsUIu8/s0/Bg110fBHacjE1c_2017-04-01_14-33-43.png "HWID")
 
-Q: How does the bot determine which deck to use?
+Q: Anyone banned yet ?
 
-A: Anyone banned yet ?
-
-Q: No bans reported so far
-
-A: Yes. Ingame works too.
-
-Q: Can I run bot in background?
-
-A: Nope, its both for safety and impossible since we dont inject in game. People bot over night or with vmware (check guide below).
-
-Q: Do I need additional key for virtual machine ?
-
-A: Yep
-
-Q: Can I use gwent tracker with bot ?
-
-A: Yes but make sure it doesnt cover important parts of screen (aka "Deck selection", "Play card" in right corner, scores, "Your turn", etc)
-
-Q: What virtual machine should I use ?
-
-A: Vmware 12+ pro + vmware tools
+A: No bans reported so far
 
 # Winrate examples (OBT) <a name="winrate"></a>
 
@@ -148,9 +126,7 @@ Incase you have alot of animated cards run this (it will be slighlty worse)
 
 Make sure Brouver and Dennis are non animated and cut extra bronzes. No need to run 6/6 silver 4/4 golds. Dont use buffs like horn and potions with animated cards!
 
-Replace silver / golds with bronze cards if you dont have them yet
-
-# Vmware guide <a name="vmware"></a> ()
+# Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time)
 ## Important
 Changing number of cores in vmware will change HWID too!
 
