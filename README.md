@@ -45,7 +45,8 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
-# Supported cards (DO NOT use *animated* cards. Check discord for fresh list) <a name="cards"></a>
+# Supported cards (keep *animated* cards at minimum) <a name="cards"></a>
+
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
@@ -54,7 +55,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 **Leader**: Brouver Hoog only
 
-Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
+Bot can play unsuported and/or animated cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
