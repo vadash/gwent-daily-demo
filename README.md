@@ -142,9 +142,15 @@ A: Vmware 12+ pro + vmware tools
 
 ![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352086457109839872/Gwent_2017-08-29_16-45-31.png "ST 0")
 
+Incase you have alot of animated cards run this (it will be slighlty worse)
+
+![alt text](https://lh3.googleusercontent.com/-zrVirGr7jKU/Wa1eH0pUEVI/AAAAAAAASig/n6v4xZ4MUcc8q30f2quIIXnb17R00m0AQCHMYCw/s0/Gwent_2017-09-04_17-07-21.png "ST 1")
+
+Make sure Brouver and Dennis are non animated and cut extra bronzes. No need to run 6/6 silver 4/4 golds. Dont use buffs like horn and potions with animated cards!
+
 Replace silver / golds with bronze cards if you dont have them yet
 
-# Vmware guide <a name="vmware"></a>
+# Vmware guide <a name="vmware"></a> ()
 ## Important
 Changing number of cores in vmware will change HWID too!
 
