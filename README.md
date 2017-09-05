@@ -27,6 +27,12 @@
 * Smart mulligan (with blacklisting)
 * Random bot exe/window name
 
+# Hotkeys
+
+Ctrl + F10 - stop bot after current game
+Ctrl + F11 - start/pause bot
+Ctrl + F12 - exit bot
+
 # Download <a name="download"></a>
 
 ```diff
