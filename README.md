@@ -13,11 +13,11 @@
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
-* Can bot casual / ranked (got me to R18 at the end of first OBT season) 
+* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (risky)
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
-* Up to 30-50% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
+* Up to 35-55% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
 * Pass on round win without wasting extra cards
 * Human like mouse movement
 * Will GG after match
@@ -29,9 +29,11 @@
 
 # Hotkeys
 
-Ctrl + F10 - stop bot after current game
-Ctrl + F11 - start/pause bot
-Ctrl + F12 - exit bot
+Ctrl + **F10** - stop bot after current game
+
+Ctrl + **F11** - start/pause bot
+
+Ctrl + **F12** - exit bot
 
 # Download <a name="download"></a>
 
@@ -117,15 +119,13 @@ Q: Anyone banned yet ?
 
 A: No bans reported so far
 
-# Winrate examples (OBT) <a name="winrate"></a>
+# Winrate examples <a name="winrate"></a>
 
-![alt text](https://lh3.googleusercontent.com/-vfgF5xnkXmw/WUxO0rhi25I/AAAAAAAARYk/2KUOSI6X3Ws3m-h7IKJpJsAxgJgOnXVmACHMYCw/s0/BotWinrate.png "old")
-
-![alt text](https://lh3.googleusercontent.com/-n3cUZ3Oz5Yg/WXRdx4w0viI/AAAAAAAARpM/bF7_jzdOgJ8lKJgmZ7cPg_aR_dIYIiWawCHMYCw/s0/Gwent_2017-07-23_11-26-43.png "7/23/2017")
+![alt text](https://lh3.googleusercontent.com/-7Xl0ZphGMHo/WbPTsu_XjaI/AAAAAAAASrM/N1bYSx6grFk89J4-ijoUxYY_Wo0IuZoWgCHMYCw/s0/Gwent_2017-09-09_14-42-37.png "9/9/2017")
 
 # Decks (better decks in discord) <a name="dicks"></a>
 
-![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352086457109839872/Gwent_2017-08-29_16-45-31.png "ST 0")
+![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352901282656288779/unknown.png "ST 0")
 
 Incase you have a lot of animated cards run this (it will be slighlty worse)
 
