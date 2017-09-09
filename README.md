@@ -108,8 +108,6 @@ A: Assuming 44 games over 8.5 hours, 45% winrate => 11.6 minutes average game, 0
 
 4 tiers (max) = 66 / (0.45 * 2 + 0.55 * 0.85) * 11.6 = **560** minutes
 
-![alt text](https://lh3.googleusercontent.com/-AnNGBw1EgWw/WTEVcei-yPI/AAAAAAAAQis/wTjXMTfXNc81LMRnkQ2TBYjK4rVLanx8QCHM/s0/chrome_2017-06-02_10-36-14.png "Daily rewards")
-
 Q: WTF is HWID?
 
 A: Its HardWare IDentification key. Its generated based on CPU serial number and Motherboard serial. Looks like this
