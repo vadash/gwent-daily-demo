@@ -13,10 +13,10 @@
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
-* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (1230 real not peak mmr. all st games were played with bot)
 
 ![alt text](https://lh3.googleusercontent.com/-MQmPPPnIsaw/WbZYsHfoq_I/AAAAAAAASt0/WTB6unyKHqoPqDvD_r1GHSL98BdV5-vzwCHMYCw/s0/chrome_2017-09-11_12-34-37.pngg "proladder 9/11/17")
 
+* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (1230 real not peak mmr. all st games were played with bot)
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
@@ -41,7 +41,7 @@ Ctrl + **F12** - exit bot
 # Download <a name="download"></a>
 
 ```diff
-- Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
+- Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
@@ -50,7 +50,7 @@ VirusTotal is around **4/64**. I am using custom protector that makes it difficu
 https://www.virustotal.com/#/file/99ea8177bb2063806ec0477510e020e2b74697bda65d0755355b127069b5c51d/detection
 
 ```diff
-- Demo limit 25 runs x 10 days x few games each session (BOT WILL CRASH AFTER)
+- Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
 Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
