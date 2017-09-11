@@ -68,6 +68,14 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 Bot can play unsuported and/or animated cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
 
+## Tips for new players
+
+Finish single player challenges. Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least intersted factions and mill all their cards (except leaders).
+
+## Craft order
+
+Bronzes (you can run more than 15) -> Dennis -> Yarpen -> Barclay -> Operator -> Finish silvers -> Start crafting golds
+
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
 
