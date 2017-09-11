@@ -70,7 +70,7 @@ Bot can play unsuported and/or animated cards too. Keep it minimum and simple li
 
 ## Tips for new players
 
-Finish single player challenges. Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least intersted factions and mill all their cards (except leaders).
+Finish single player challenges. Buy starter pack (insane value). Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least interested factions and mill all their cards (except leaders).
 
 ## Craft order
 
