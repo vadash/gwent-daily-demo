@@ -58,7 +58,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 # Supported cards (keep *animated* cards at minimum) <a name="cards"></a>
 
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder
+**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Mahakam Agitator
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
@@ -70,11 +70,11 @@ Bot can play unsuported and/or animated cards too. Keep it minimum and simple li
 
 ## Tips for new players
 
-Finish single player challenges. Buy starter pack (insane value). Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least interested factions and mill all their cards (except leaders).
+Finish single player challenges and subscribe gog newsletter for 7.5+1 keks. You may buy starter pack (good value equals ~5 nights botting). Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least interested factions and mill all their cards (except leaders) if you want to speed up progression.
 
 ## Craft order
 
-Bronzes (you can run more than 15) -> Dennis -> Yarpen -> Barclay -> Operator -> Finish silvers -> Start crafting golds
+3 Mahakam Defender + 3 Mahakam Marauder + 3 Mahakam Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (both Zoltans should be first)
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
