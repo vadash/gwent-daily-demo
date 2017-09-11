@@ -13,7 +13,10 @@
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
-* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (risky)
+* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (1230 real not peak mmr. all st games were played with bot)
+
+![alt text](https://lh3.googleusercontent.com/-MQmPPPnIsaw/WbZYsHfoq_I/AAAAAAAASt0/WTB6unyKHqoPqDvD_r1GHSL98BdV5-vzwCHMYCw/s0/chrome_2017-09-11_12-34-37.pngg "proladder 9/11/17")
+
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
