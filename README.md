@@ -16,7 +16,7 @@
 
 ![alt text](https://lh3.googleusercontent.com/-hb4xhtRazGY/WbeW8WMxF2I/AAAAAAAASvE/OIUGIhxHLDAvklB09NV4WBPaYQDVlsGJwCHMYCw/s0/chrome_2017-09-12_11-12-23.png "proladder 9/12/17")
 
-* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (1230 real not peak mmr. all st games were played with bot)
+* Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (got 1115 real not peak mmr and all st games were played with bot)
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
