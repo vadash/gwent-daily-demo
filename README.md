@@ -14,7 +14,7 @@
 
 # Features <a name="features"></a>
 
-![alt text](https://lh3.googleusercontent.com/-MQmPPPnIsaw/WbZYsHfoq_I/AAAAAAAASt0/WTB6unyKHqoPqDvD_r1GHSL98BdV5-vzwCHMYCw/s0/chrome_2017-09-11_12-34-37.pngg "proladder 9/11/17")
+![alt text](https://lh3.googleusercontent.com/-hb4xhtRazGY/WbeW8WMxF2I/AAAAAAAASvE/OIUGIhxHLDAvklB09NV4WBPaYQDVlsGJwCHMYCw/s0/chrome_2017-09-12_11-12-23.png "proladder 9/12/17")
 
 * Can bot casual / ranked (got me to R18 at the end of first OBT season) / pro ladder ST (1230 real not peak mmr. all st games were played with bot)
 * No injecting. Its safer to use and harder to detect
