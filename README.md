@@ -12,9 +12,7 @@
 # Introduction <a name="introduction"></a>
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
-# Gameplay video
-
-https://youtu.be/fDUe4CJEEcM
+[![Gameplay video](https://lh3.googleusercontent.com/-r2ykAHiY5e4/WcbvphFQQPI/AAAAAAAAS6Y/R1z_G92t2NcGZYKeuCgmxhR-vKiDYrKuQCHMYCw/s0/chrome_2017-09-24_02-34-56.png)](https://youtu.be/fDUe4CJEEcM "Gameplay video")
 
 # Features <a name="features"></a>
 
