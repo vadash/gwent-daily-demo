@@ -103,6 +103,12 @@ Set gwent like this and start bot. It will remove gwent's window title, change s
 
 # FAQ <a name="faq"></a>
 
+Q: How I can track bot winrate ?
+
+A: Install gwent tracker and hide all GUI
+
+![alt text](https://lh3.googleusercontent.com/-VZibfbPuvek/WcYaRMM1F_I/AAAAAAAAS5k/jAIfaEtDPKUI-vGTLF0kbvti8tt8SVPVgCHMYCw/s0/Gwent_2017-09-23_11-24-11.png "Gwent tracker")
+
 Q: Game and windows settings ?
 
 A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2013/2015/2017 x86, and .NET 4.6.1+ (skip for win 10)
