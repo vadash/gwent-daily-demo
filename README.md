@@ -81,10 +81,10 @@ Finish single player challenges and subscribe gog newsletter for 7.5+1 keks. You
 
 ![alt text](https://lh3.googleusercontent.com/-j3mRUs9mH7A/WSgeINPQgBI/AAAAAAAAQKI/7mGVKLE8SsU176zYujmZtMBuR6vZ0g3zwCHM/s0/Gwent_2017-05-26_15-22-51.png "gwent settings")
 
-## 4k resolution (can skip for 1920x1080)
-Set gwent like this and start bot. It will remove gwent's window title, change size to 1920x1080 and move it to top left
+## 4k resolution (can skip for 720p)
+Set gwent like this and start bot. It will remove gwent's window title, change size to 720p and move it to top left
 
-![alt text](https://lh3.googleusercontent.com/-PMuQcCzcyBI/WPsgFKsmE_I/AAAAAAAAPa4/NGGzHUB_OB4/s0/Gwent_2017-04-22_12-19-00.png "!1080")
+![alt text](https://lh3.googleusercontent.com/-PMuQcCzcyBI/WPsgFKsmE_I/AAAAAAAAPa4/NGGzHUB_OB4/s0/Gwent_2017-04-22_12-19-00.png "!720p")
 
 ## scaling (can skip with 100% windows scaling)
 1) Find gwent game exe (not gog)
@@ -105,7 +105,7 @@ Set gwent like this and start bot. It will remove gwent's window title, change s
 
 Q: Game and windows settings ?
 
-A: gwent's ENGLISH language, 1920x1080 or more (1680x1050 limited support), windows 7sp1-10 x64, no cyrillic/special symbols/spaces in windows username, vcredist 2013 x64, 2015 x64 and net 4.5.2 (skip for win 10)
+A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2013 2015 2017 x86, and net 4.5.2 (skip for win 10)
 
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
