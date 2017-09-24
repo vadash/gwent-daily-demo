@@ -113,7 +113,7 @@ A: Install gwent tracker and hide all GUI
 
 Q: Game and windows settings ?
 
-A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2013/2015/2017 x86, and .NET 4.6.1+ (skip for win 10)
+A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2012/13/15 x86, and .NET 4.6.2
 
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
