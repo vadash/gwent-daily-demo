@@ -155,11 +155,9 @@ Make sure Brouver and Dennis are non animated and cut extra bronzes. No need to 
 Changing number of cores in vmware will change HWID too!
 
 ## Links
-vmware http://www.vmware.com/go/tryworkstation-win
+vmware player 12 free https://www.vmware.com/go/tryplayerpro-win-64
 
-vmware serial https://www.google.com/webhp?q=keys+for+vmware+12.5
-
-Windows 7 X64 EN image (original) 
+Windows 7 X64 EN image or use any iso from any tracker (x86 is fine but tracker will NOT work)
 
 https://rutracker.org/forum/viewtopic.php?t=5121311 or
 
@@ -168,24 +166,17 @@ magnet:?xt=urn:btih:AF0CF9EA0673B98BF10DB89637C1A8389C968878&tr=http%3A%2F%2Fbt.
 Select "en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso"
 
 ## Vmware settings
-SSD settings: 1600 (win 7 lite)-1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 15-20 gb HDD
+SSD settings: 1400 (win 7 x86 lite) - 1600 (win 7 x64 lite)- 1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 20 gb HDD
 
-For HDD increase RAM to 2500-3000 and VRAM to 1000-1500.
+For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
 
-![alt text](https://lh3.googleusercontent.com/-Vxtj8GqpQfM/WTUiID5LHeI/AAAAAAAAQqE/nR8DJvOqbAgABeziy3t69p1lJWf-ciz7QCHM/s0/vmware_2017-06-05_12-19-25.png "SSD botting")
+![alt text](https://lh3.googleusercontent.com/-sCKc4QZgSUA/WcrUmK43YPI/AAAAAAAAS-M/S-LbxPZGgXojXqOnj7AoUwiksK-YP4CnACHMYCw/s0/vmplayer_2017-09-27_01-28-37.png "SSD botting")
 
 ## Guest OS power options (inside vmware)
 
 ![alt text](https://lh3.googleusercontent.com/-2OaB7Pa4DH8/WTUg103kXPI/AAAAAAAAQp8/3KN-4eUc5ukW9HyoexRuuQDyCiGBZB6fACHM/s0/explorer_2017-06-05_12-13-56.png "Power options")
 
-## Dxtory (optional)
-This app limits fps to reduce vmware load by 20-30%. I use 20 fps limit. Here is version with serial
-
-magnet:?xt=urn:btih:8EF2E1828CA03C1567DF7A31A3AD3F1AA28986B7&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=Dxtory%202.0.122%20x86%2Bx64%20%5B2013%2C%20ENG%5D
-
-![alt text](https://lh3.googleusercontent.com/-r-YzgiCQlzY/WQOEhbsUvUI/AAAAAAAAPeQ/_qSZ9TQQpP8EpA41rfB1nPvhR3k_Di3hgCHM/s0/vmware_2017-04-28_21-05-53.png "dxtory")
-
-## Detailed guide in pictures
+## Detailed guide in pictures (old, change resolution to 1280x720 in the end)
 https://goo.gl/photos/vC2aA8zfiBoqUcPw7
 
 # Full version
