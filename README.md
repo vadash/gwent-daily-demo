@@ -176,7 +176,7 @@ For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
 
 ## Detailed guide
 
-[![Detailed guide](https://lh3.googleusercontent.com/-uUAZaFZJxNg/Wcs1HnWSqzI/AAAAAAAAS_4/_UYQZ_3KQeYmBPianCjP7EJIo6NbYF-eACHMYCw/s0/chrome_2017-09-27_08-19-39.png)](https://www.youtube.com/watch?v=bwL7awAwYOo&index=2&list=PLRILnyXG1idBRO6iK2ZKvQwonMHlTXjxq
+[![Detailed guide](https://lh3.googleusercontent.com/-RURR4ixnAQs/Wcub2YewNiI/AAAAAAAATAY/HS94dRyUwMwMDzijbQ1STDk4FPid-waywCHMYCw/s0/chrome_2017-09-27_15-38-46.png)](https://www.youtube.com/watch?v=bwL7awAwYOo&index=2&list=PLRILnyXG1idBRO6iK2ZKvQwonMHlTXjxq
  "Detailed guide")
 
 # Full version
