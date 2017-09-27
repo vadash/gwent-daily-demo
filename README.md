@@ -150,23 +150,21 @@ Incase you have a lot of animated cards run this (it will be slighlty worse)
 
 Make sure Brouver and Dennis are non animated and cut extra bronzes. No need to run 6/6 silvers and 4/4 golds. Dont use buffs like horn and potions with animated cards!
 
-# Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time)
+# Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time) 9/27/2017
 ## Important
-Changing number of cores in vmware will change HWID too!
+Changing number of cores in vmware will change HWID too! Usually 1 (i5 class cpu) - 2 cores is enough
 
 ## Links
 vmware player 12 free https://www.vmware.com/go/tryplayerpro-win-64
 
-Windows 7 X64 EN image or use any iso from any tracker (x86 is fine but tracker will NOT work)
+Windows 7 x86 EN image or use any win 7/8.1/10 x86/x64 original torrent + magnet
 
-https://rutracker.org/forum/viewtopic.php?t=5121311 or
+https://rutracker.org/forum/viewtopic.php?t=5121311
 
 magnet:?xt=urn:btih:AF0CF9EA0673B98BF10DB89637C1A8389C968878&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=Microsoft%20Windows%207%20with%20SP1%20Updated%2012.05.2011%20English%20%5B%D0%92%D1%81%D0%B5%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%5D
 
-Select "en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso"
-
 ## Vmware settings
-SSD settings: 1400 (win 7 x86 lite) - 1600 (win 7 x64 lite)- 1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 20 gb HDD
+SSD settings: 1400 (win 7 x86 lite) - 1600 (win 7 x64 lite) - 1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 20 gb HDD
 
 For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
 
@@ -176,8 +174,8 @@ For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
 
 ![alt text](https://lh3.googleusercontent.com/-2OaB7Pa4DH8/WTUg103kXPI/AAAAAAAAQp8/3KN-4eUc5ukW9HyoexRuuQDyCiGBZB6fACHM/s0/explorer_2017-06-05_12-13-56.png "Power options")
 
-## Detailed guide in pictures (old, change resolution to 1280x720 in the end)
-https://goo.gl/photos/vC2aA8zfiBoqUcPw7
+## Detailed guide
+https://www.youtube.com/watch?v=bwL7awAwYOo&index=2&list=PLRILnyXG1idBRO6iK2ZKvQwonMHlTXjxq
 
 # Full version
 DM me @ discord:
