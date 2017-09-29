@@ -58,7 +58,9 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
-# Supported cards (keep *animated* cards at minimum) <a name="cards"></a>
+# Supported cards <a name="cards"></a>
+
+Dont forget to enable new premium option (Premium = OFF) in game if u want to use animated cards with bot!
 
 **Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Mahakam Agitator
 
@@ -68,7 +70,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 **Leader**: Brouver Hoog only
 
-Bot can play unsuported and/or animated cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
+Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
 
 ## Tips for new players
 
