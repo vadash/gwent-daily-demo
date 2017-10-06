@@ -62,7 +62,7 @@ Bot is updated for OBT **0.9.10.x** patch, many happy users.
 
 Dont forget to enable new premium option (Premium = OFF) in game if u want to use animated cards with bot!
 
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Mahakam Agitator
+**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Dwarven Agitator
 
 **Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
 
