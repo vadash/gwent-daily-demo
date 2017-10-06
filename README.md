@@ -78,7 +78,7 @@ Finish single player challenges and subscribe gog newsletter for 7.5+1 keks. You
 
 ## Craft order
 
-3 Mahakam Defender + 3 Mahakam Marauder + 3 Mahakam Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (both Zoltans should be first)
+3 Mahakam Defender + 3 Mahakam Marauder + 3 Dwarven Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (both Zoltans should be first)
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
