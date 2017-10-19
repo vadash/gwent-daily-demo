@@ -74,11 +74,14 @@ Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot 
 
 ## Tips for new players
 
-Finish single player challenges and subscribe gog newsletter for 7.5+1 keks. You may buy starter pack (good value equals ~5 nights botting). Open kegs and choose supported cards. Level account to lvl 3. Choose 1-2 least interested factions and mill all their cards (except leaders) if you want to speed up progression.
+Finish single player challenges and subscribe for gog newsletter for 7.5+1 keks. You may buy starter pack (good value equals ~5 nights botting). Open kegs and choose supported cards. Choose 1 least interested faction and mill all their cards (except leaders) if you want to speed up progression. Queue ranked ladder as soon as you hit lvl 10.
+
+Got rank 17 on new account after 4 days
+![alt text](https://lh3.googleusercontent.com/-kJpGLTM3kOE/WeiNakI7pSI/AAAAAAAATkU/aJ2tfpGjrek-Q0XR6DzYOZe2jGFhPyHyQCHMYCw/s0/Gwent_2017-10-19_14-32-09.png "10/19/2017 new acc")
 
 ## Craft order
 
-3 Mahakam Defender + 3 Mahakam Marauder + 3 Dwarven Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (both Zoltans should be first)
+3 Mahakam Defender + 3 Mahakam Marauder + 3 Dwarven Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (Zoltan chivay -> Milva -> Zoltan Tamer)
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
