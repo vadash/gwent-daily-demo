@@ -139,21 +139,15 @@ A: Its HardWare IDentification key. Its generated based on CPU serial number and
 
 Q: Anyone banned yet ?
 
-A: No bans reported so far
+A: No bans reported so far (10/23/2017)
 
 # Winrate examples <a name="winrate"></a>
 
 ![alt text](https://lh3.googleusercontent.com/-7Xl0ZphGMHo/WbPTsu_XjaI/AAAAAAAASrM/N1bYSx6grFk89J4-ijoUxYY_Wo0IuZoWgCHMYCw/s0/Gwent_2017-09-09_14-42-37.png "9/9/2017")
 
-# Decks (better decks in discord) <a name="dicks"></a>
+# Decks (fresh decks in discord) <a name="dicks"></a>
 
 ![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352901282656288779/unknown.png "ST 0")
-
-Incase you have a lot of animated cards run this (it will be slighlty worse)
-
-![alt text](https://lh3.googleusercontent.com/-zrVirGr7jKU/Wa1eH0pUEVI/AAAAAAAASig/n6v4xZ4MUcc8q30f2quIIXnb17R00m0AQCHMYCw/s0/Gwent_2017-09-04_17-07-21.png "ST 1")
-
-Make sure Brouver and Dennis are non animated and cut extra bronzes. No need to run 6/6 silvers and 4/4 golds. Dont use buffs like horn and potions with animated cards!
 
 # Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time) 9/27/2017
 ## Important
