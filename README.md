@@ -183,7 +183,6 @@ For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
 # Full version
 DM me @ discord:
 dlr5668#5210
-https://discord.gg/P2XdSrR
 
 # How to register bot after you buy it <a name="register"></a>
 
