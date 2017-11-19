@@ -154,13 +154,15 @@ A: No bans reported so far (10/23/2017)
 Changing number of cores in vmware will change HWID too! Usually 1 (i5 class cpu) - 2 cores is enough
 
 ## Links
-vmware player 12 free https://www.vmware.com/go/tryplayerpro-win-64
+vmware player https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/14_0
 
-Windows 7 x86 EN image or use any win 7/8.1/10 x86/x64 original torrent + magnet
+Windows 7 x86 EN image torrent + magnet
 
-https://rutracker.org/forum/viewtopic.php?t=5121311
+https://rutracker.lib/forum/viewtopic.php?t=5121311
 
 magnet:?xt=urn:btih:AF0CF9EA0673B98BF10DB89637C1A8389C968878&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=Microsoft%20Windows%207%20with%20SP1%20Updated%2012.05.2011%20English%20%5B%D0%92%D1%81%D0%B5%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%5D
+
+OR use any win 7/8.1/10 x86/x64 original image
 
 ## Vmware settings
 SSD settings: 1400 (win 7 x86 lite) - 1600 (win 7 x64 lite) - 1800 (win 7) - 2000 (win 10 lite) - 2500 (win 10) RAM / 1000-2400 pagefile (total ram + pagefile should be ~4 GB) / 512 (win 7) - 1024 (win 10) MB VRAM / 1-2 cpu cores / 20 gb HDD
