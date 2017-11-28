@@ -18,7 +18,7 @@
 
 ![alt text](https://lh3.googleusercontent.com/-n-sT--SHseo/WbllV1__8nI/AAAAAAAASys/aXC-vKwVlYQWsWebgWdHXnZlo4qlcW0pACHMYCw/s0/chrome_2017-09-13_20-05-17.png "proladder 9/13/17")
 
-* Can bot casual / ranked (got me to R19 10/23/2017) / pro ladder ST (got 1116 peak mmr and all 100+ st games were played with bot)
+* Can bot casual / ranked (got me to R19 10/23/2017)
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
@@ -31,6 +31,9 @@
 * Random sleep timers and coordinates for clicking
 * Smart mulligan (with blacklisting)
 * Random bot exe/window name
+* Possible to hide bot process completely (win 7 x86 only) from gwent detection via rootkit
+
+![alt text](https://lh3.googleusercontent.com/-XkQWtlAP9Ik/Wh2VruyjleI/AAAAAAAAT3A/VV9qnR-OeeI2NNWY1DzES0BSBFqce2RSQCHMYCw/s0/vmplayer_2017-11-28_19-58-19.png "hide")
 
 # Hotkeys
 
@@ -47,14 +50,14 @@ Ctrl + **F12** - exit bot
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **6/64**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want to be perfect safe.
+VirusTotal is around **3/67**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want to be perfect safe.
 
-https://www.virustotal.com/#/file/4dd090c17cdffd7197abdd7c4e2737034a9fcea5019ee63c8a443fc1fe705346/detection
+3.6.0 scan https://www.virustotal.com/#/file/25fa23b289b3b776e7233dd4d456391c23542485b6ae2caf85804c31ac62d353/detection
 
 ```diff
 - Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
-Bot is updated for OBT **0.9.10.x** patch, many happy users.
+Bot is updated for OBT **0.9.x** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
@@ -118,7 +121,7 @@ A: Install gwent tracker and hide all GUI
 
 Q: Game and windows settings ?
 
-A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2008 + 2012 + 2013 + 2015 x86, and .NET 4.6.2
+A: gwent's ENGLISH language, 1280x720 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, vcredist 2008 + 2012 + 2013 + 2015 x86, and .NET 4.6
 
 ![alt text](https://lh3.googleusercontent.com/-4_dBitPoZac/WQsKqZOmw2I/AAAAAAAAPkw/IOaJhpuZWiIETTlinj2ZrmPdVomIixIPQCHM/s0/ApplicationFrameHost_2017-05-04_14-04-06.png "Scaling")
 
@@ -136,10 +139,6 @@ Q: WTF is HWID?
 
 A: Its HardWare IDentification key. Its generated based on CPU serial number and Motherboard serial. Looks like this
 ![alt text](https://lh3.googleusercontent.com/-GCnSAawXp0w/WN-QGuFfdWI/AAAAAAAAPCw/RwX7whsUIu8/s0/Bg110fBHacjE1c_2017-04-01_14-33-43.png "HWID")
-
-Q: Anyone banned yet ?
-
-A: No bans reported so far (10/23/2017)
 
 # Winrate examples <a name="winrate"></a>
 
