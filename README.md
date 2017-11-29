@@ -146,7 +146,7 @@ A: Its HardWare IDentification key. Its generated based on CPU serial number and
 
 # Decks (fresh decks in discord) <a name="dicks"></a>
 
-![alt text](https://cdn.discordapp.com/attachments/321176575057985536/352901282656288779/unknown.png "ST 0")
+![alt text](https://lh3.googleusercontent.com/-pcQy0ijKuQA/Wh8Im1lWenI/AAAAAAAAT4k/Uccyh14wrK4ko5Lc6sr3-rZODoNWo1hagCHMYCw/s0/unknown.png "D21")
 
 # Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time) 9/27/2017
 ## Important
