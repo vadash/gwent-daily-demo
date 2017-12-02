@@ -50,7 +50,7 @@ Ctrl + **F12** - exit bot
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **3/67**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want to be perfect safe.
+VirusTotal is around **2/67**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want to be perfect safe.
 
 3.6.0 scan https://www.virustotal.com/#/file/25fa23b289b3b776e7233dd4d456391c23542485b6ae2caf85804c31ac62d353/detection
 
