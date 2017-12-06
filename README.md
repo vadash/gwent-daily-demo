@@ -180,7 +180,9 @@ For HDD increase RAM +400 MB and VRAM to 1000-1500 MB
  "Detailed guide")
 
 # Full version
-https://discord.gg/rrtKCVj and DM dlr5668#5210
+Use invite link on top and DM dlr5668#5210
+
+![alt text](https://lh3.googleusercontent.com/-tOmEyqlRX50/WidFe4Lv0LI/AAAAAAAAT-k/2RV1OaY_Y0kqlheoS1GogI0oJPATbWMhwCHMYCw/s0/firefox_2017-12-06_04-18-48.png "invite link")
 
 # How to register bot after you buy it <a name="register"></a>
 
