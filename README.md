@@ -57,7 +57,7 @@ VirusTotal is around **2/67**. I am using custom protector that makes it difficu
 ```diff
 - Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
-Bot is updated for OBT **0.9.x** patch, many happy users.
+Bot is updated for OBT **0.9.18** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
@@ -65,26 +65,16 @@ Bot is updated for OBT **0.9.x** patch, many happy users.
 
 Dont forget to enable new premium option (Premium = OFF) in game if u want to use animated cards with bot!
 
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Dwarven Agitator
-
-**Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
-
-**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva, both Zoltans
-
 **Leader**: Brouver Hoog only
-
-Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
 
 ## Tips for new players
 
 Finish single player challenges and subscribe for gog newsletter for 7.5+1 keks. You may buy starter pack (good value equals ~5 nights botting). Open kegs and choose supported cards. Choose 1 least interested faction and mill all their cards (except leaders) if you want to speed up progression. Queue ranked ladder as soon as you hit lvl 10.
 
-Got rank 17 on new account after 4 days
-![alt text](https://lh3.googleusercontent.com/-kJpGLTM3kOE/WeiNakI7pSI/AAAAAAAATkU/aJ2tfpGjrek-Q0XR6DzYOZe2jGFhPyHyQCHMYCw/s0/Gwent_2017-10-19_14-32-09.png "10/19/2017 new acc")
-
 ## Craft order
 
-3 Mahakam Defender + 3 Mahakam Marauder + 3 Dwarven Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (Zoltan chivay -> Milva -> Zoltan Tamer)
+- remove dudu, mantocre venom
++ craft barclay els -> 3 dwarven agitators -> paulie dahberg
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
@@ -146,7 +136,9 @@ A: Its HardWare IDentification key. Its generated based on CPU serial number and
 
 # Decks (fresh decks in discord) <a name="dicks"></a>
 
-![alt text](https://lh3.googleusercontent.com/-pcQy0ijKuQA/Wh8Im1lWenI/AAAAAAAAT4k/Uccyh14wrK4ko5Lc6sr3-rZODoNWo1hagCHMYCw/s0/unknown.png "D21")
+Starter deck
+
+![alt text](https://lh3.googleusercontent.com/-zbyirKl7Hjc/WkJ9t3aJPtI/AAAAAAAAUbU/82k4bObY6csdWcvH9L-Q_w236RDyFKA3ACHMYCw/s0/Gwent_2017-12-26_19-49-57.png "Starter deck")
 
 # Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time) 9/27/2017
 ## Important
