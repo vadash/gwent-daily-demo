@@ -1,13 +1,11 @@
 # Table of contents
 1. [Download](#download)
 2. [Features](#features)
-3. [Supported card list](#cards)
-4. [Settings](#settings)
-5. [FAQ](#faq)
-6. [Winrate](#winrate)
-7. [Decks](#dicks)
-8. [Vmware gudie](#vmware)
-9. [How to register full version](#register)
+3. [Settings](#settings)
+4. [FAQ](#faq)
+5. [Decks](#dicks)
+6. [Vmware gudie](#vmware)
+7. [How to register full version](#register)
 
 # Introduction <a name="introduction"></a>
 *Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
@@ -18,11 +16,12 @@
 
 ![alt text](https://lh3.googleusercontent.com/-n-sT--SHseo/WbllV1__8nI/AAAAAAAASys/aXC-vKwVlYQWsWebgWdHXnZlo4qlcW0pACHMYCw/s0/chrome_2017-09-13_20-05-17.png "proladder 9/13/17")
 
-* Can bot casual / ranked (got me to R19 10/23/2017)
+* Can bot casual / ranked (got me to 3385 MMR 12/28/2017)
+* Easy to start. Just need to craft few silvers and few bronzes
 * No injecting. Its safer to use and harder to detect
 * Emotes support
 * Farms 370 ore and 145 scraps over 6 hours
-* Up to 35-55% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
+* Up to 35-45% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
 * Pass on round win without wasting extra cards
 * Human like mouse movement
 * Will GG after match
@@ -31,9 +30,6 @@
 * Random sleep timers and coordinates for clicking
 * Smart mulligan (with blacklisting)
 * Random bot exe/window name
-* Possible to hide bot process completely (win 7 x86 only) from gwent detection via rootkit
-
-![alt text](https://lh3.googleusercontent.com/-XkQWtlAP9Ik/Wh2VruyjleI/AAAAAAAAT3A/VV9qnR-OeeI2NNWY1DzES0BSBFqce2RSQCHMYCw/s0/vmplayer_2017-11-28_19-58-19.png "hide")
 
 # Hotkeys
 
@@ -57,34 +53,30 @@ VirusTotal is around **2/67**. I am using custom protector that makes it difficu
 ```diff
 - Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
-Bot is updated for OBT **0.9.x** patch, many happy users.
+Bot is updated for OBT **0.9.18** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
-# Supported cards <a name="cards"></a>
+# Decks (fresh decks in discord) <a name="dicks"></a>
 
-Dont forget to enable new premium option (Premium = OFF) in game if u want to use animated cards with bot!
+Starter deck
 
-**Bronze**: Mahakam Defender, Mahakam Guard, First Light, Dwarven Skirmisher, Vrihedd Dragoon, Dol Blathanna Archer, Thunderbolt potion, Wardancer, Hawker Healer, Elven Mercenary (limited, with first light), Mahakam Marauder, Dwarven Agitator
-
-**Silver**: Barclay Els, Yarpen Zigrin, Dennis Cranmer, King of Beggars, Morenn, Olgierd, Roach, Toruviel OR Sheldon, Alzur cross, Commanders Horn (only with extreme melee stacking)
-
-**Gold**: Geralt (starter gold), Royal Decree (starter gold, use only with 4 starter golds), Dragon saskia (starter gold), Triss (starter gold), Ragnaroog, Yennefer: The Conjurer, Avallach, Triss Butt, Milva, both Zoltans
-
-**Leader**: Brouver Hoog only
-
-Bot can play unsuported cards too. Keep it minimum and simple like Tremors. Bot will play them last after all known/detected cards.
+![alt text](https://lh3.googleusercontent.com/-zbyirKl7Hjc/WkJ9t3aJPtI/AAAAAAAAUbU/82k4bObY6csdWcvH9L-Q_w236RDyFKA3ACHMYCw/s0/Gwent_2017-12-26_19-49-57.png "Starter deck")
 
 ## Tips for new players
 
 Finish single player challenges and subscribe for gog newsletter for 7.5+1 keks. You may buy starter pack (good value equals ~5 nights botting). Open kegs and choose supported cards. Choose 1 least interested faction and mill all their cards (except leaders) if you want to speed up progression. Queue ranked ladder as soon as you hit lvl 10.
 
-Got rank 17 on new account after 4 days
-![alt text](https://lh3.googleusercontent.com/-kJpGLTM3kOE/WeiNakI7pSI/AAAAAAAATkU/aJ2tfpGjrek-Q0XR6DzYOZe2jGFhPyHyQCHMYCw/s0/Gwent_2017-10-19_14-32-09.png "10/19/2017 new acc")
-
 ## Craft order
 
-3 Mahakam Defender + 3 Mahakam Marauder + 3 Dwarven Agitator (its important core) -> other bronzes to replace missing golds and silvers (craft 2 copies of 3 and get last one from kegs) -> Dennis (core) -> Yarpen (cant go wrong with resilence) -> Barclay (yee more dorfs) -> Operator (give enemy useless card) -> Finish silvers -> Start crafting golds (Zoltan chivay -> Milva -> Zoltan Tamer)
+- remove dudu, mantocre venom
++ craft barclay els -> 3 dwarven agitators -> paulie dahberg
+
+## Supported cards
+
+Dont forget to enable new premium option (Premium = OFF) in game if u want to use animated cards with bot!
+
+**Leader**: Brouver Hoog only
 
 # Gwent settings <a name="settings"></a>
 ## general (can skip this)
@@ -139,14 +131,6 @@ Q: WTF is HWID?
 
 A: Its HardWare IDentification key. Its generated based on CPU serial number and Motherboard serial. Looks like this
 ![alt text](https://lh3.googleusercontent.com/-GCnSAawXp0w/WN-QGuFfdWI/AAAAAAAAPCw/RwX7whsUIu8/s0/Bg110fBHacjE1c_2017-04-01_14-33-43.png "HWID")
-
-# Winrate examples <a name="winrate"></a>
-
-![alt text](https://lh3.googleusercontent.com/-7Xl0ZphGMHo/WbPTsu_XjaI/AAAAAAAASrM/N1bYSx6grFk89J4-ijoUxYY_Wo0IuZoWgCHMYCw/s0/Gwent_2017-09-09_14-42-37.png "9/9/2017")
-
-# Decks (fresh decks in discord) <a name="dicks"></a>
-
-![alt text](https://lh3.googleusercontent.com/-pcQy0ijKuQA/Wh8Im1lWenI/AAAAAAAAT4k/Uccyh14wrK4ko5Lc6sr3-rZODoNWo1hagCHMYCw/s0/unknown.png "D21")
 
 # Vmware guide <a name="vmware"></a> (optional, allows you to use ur computer and bot at the same time) 9/27/2017
 ## Important
