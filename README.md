@@ -16,7 +16,7 @@
 
 ![alt text](https://lh3.googleusercontent.com/-n-sT--SHseo/WbllV1__8nI/AAAAAAAASys/aXC-vKwVlYQWsWebgWdHXnZlo4qlcW0pACHMYCw/s0/chrome_2017-09-13_20-05-17.png "proladder 9/13/17")
 
-* Can bot casual / ranked (got me to 3385 MMR 12/28/2017)
+* Can bot casual / ranked (got me to 3380 MMR 12/28/2017)
 * Easy to start. Just need to craft few silvers and few bronzes
 * No injecting. Its safer to use and harder to detect
 * Emotes support
