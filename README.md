@@ -4,30 +4,22 @@
 3. [Settings](#settings)
 4. [FAQ](#faq)
 5. [Decks](#dicks)
-6. [Vmware gudie](#vmware)
+6. [Vmware guide](#vmware)
 7. [How to register full version](#register)
 
-# Introduction <a name="introduction"></a>
-*Gwent-daily* is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
+# Key Features <a name="features"></a>
 
-[![Gameplay video](https://lh3.googleusercontent.com/-coABn925fOA/WcbzGiVR2PI/AAAAAAAAS6k/GAJDBCWCqrQC4xTCzbYsNnLEMhE4oEAmwCHMYCw/s0/chrome_2017-09-24_02-49-41.png)](https://youtu.be/fDUe4CJEEcM "Gameplay video")
-
-# Features <a name="features"></a>
-
-* Can bot casual / ranked (got me to 3380 MMR 12/28/2017)
 * Easy to start. Just need to craft few silvers and few bronzes
+* Can bot casual / ranked (got me to 3380 MMR 12/28/2017)
 * No injecting. Its safer to use and harder to detect
-* Emotes support
-* Farms 370 ore and 145 scraps over 6 hours
-* Up to 35-45% win rate. It depends on your casual MMR, account level and deck used. Bot may need few days to tank your casual MMR
-* Pass on round win without wasting extra cards
+* Farms over 300 ore and 150 scraps over 7 hours
 * Human like mouse movement
 * Will GG after match
-* Close defeat / victory / dc / forfeit screens
 * Can restart gwent every few hours (avoid memory leaks)
 * Random sleep timers and coordinates for clicking
-* Smart mulligan (with blacklisting)
 * Random bot exe/window name
+
+[![Gameplay video](https://lh3.googleusercontent.com/-coABn925fOA/WcbzGiVR2PI/AAAAAAAAS6k/GAJDBCWCqrQC4xTCzbYsNnLEMhE4oEAmwCHMYCw/s0/chrome_2017-09-24_02-49-41.png)](https://youtu.be/fDUe4CJEEcM "Gameplay video")
 
 # Hotkeys
 
