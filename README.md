@@ -12,7 +12,7 @@
 * Easy to start. Just need to craft few silvers and few bronzes
 * Can bot casual / ranked (got me to 3380 MMR 12/28/2017)
 * No injecting. Its safer to use and harder to detect
-* Farms over 300 ore and 150 scraps over 7 hours
+* Farms 350 ore and 150 scraps over 7 hours
 * Human like mouse movement
 * Will GG after match
 * Can restart gwent every few hours (avoid memory leaks)
@@ -72,9 +72,6 @@ Dont forget to enable new premium option (Premium = OFF) in game if u want to us
 ## general (can skip this)
 
 ![alt text](https://lh3.googleusercontent.com/-j3mRUs9mH7A/WSgeINPQgBI/AAAAAAAAQKI/7mGVKLE8SsU176zYujmZtMBuR6vZ0g3zwCHM/s0/Gwent_2017-05-26_15-22-51.png "gwent settings")
-
-## 4k resolution (can skip for 720p)
-Set gwent like this and start bot. It will remove gwent's window title, change size to 720p and move it to top left
 
 ![alt text](https://lh3.googleusercontent.com/-PMuQcCzcyBI/WPsgFKsmE_I/AAAAAAAAPa4/NGGzHUB_OB4/s0/Gwent_2017-04-22_12-19-00.png "!720p")
 
