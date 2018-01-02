@@ -69,7 +69,7 @@ Dont forget to enable new premium option (Premium = OFF) in game if u want to us
 **Leader**: Brouver Hoog only
 
 # Gwent settings <a name="settings"></a>
-## general (can skip this)
+## general 
 
 ![alt text](https://lh3.googleusercontent.com/-j3mRUs9mH7A/WSgeINPQgBI/AAAAAAAAQKI/7mGVKLE8SsU176zYujmZtMBuR6vZ0g3zwCHM/s0/Gwent_2017-05-26_15-22-51.png "gwent settings")
 
