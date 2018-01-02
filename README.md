@@ -7,6 +7,10 @@
 6. [Vmware guide](#vmware)
 7. [How to register full version](#register)
 
+# Introduction
+
+Gwent-daily is a bot for gwent the witcher CCG card game. Bot is based on robust image detection / OCR. It helps complete daily rounds and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
+
 # Key Features <a name="features"></a>
 
 * Easy to start. Just need to craft few silvers and few bronzes
