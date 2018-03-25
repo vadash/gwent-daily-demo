@@ -13,6 +13,7 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot is based on robust
 
 # Key Features <a name="features"></a>
 
+* Scoia'tael (basic, less missplays) and Nilfgard (advanced, higher celling)
 * Easy to start. Just need to craft few silvers and few bronzes
 * Can bot casual / ranked (got me to 3380 MMR 12/28/2017)
 * No injecting. Its safer to use and harder to detect
