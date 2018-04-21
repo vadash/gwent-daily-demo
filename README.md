@@ -41,14 +41,12 @@ Ctrl + **F12** - exit bot
 ```
 Get last setup.exe https://github.com/vadash/gwent-daily-demo/releases/latest
 
-VirusTotal is around **2/67**. I am using custom protector that makes it difficult to avoid AV miss detection. You can bot in virtual machine if you want to be perfect safe.
-
-3.6.0 scan https://www.virustotal.com/#/file/25fa23b289b3b776e7233dd4d456391c23542485b6ae2caf85804c31ac62d353/detection
+VirusTotal https://www.virustotal.com/#/file/02c64512603d92c9b4c8d7e61394382870822749e86436ff38f8b570d631f9ce/detection
 
 ```diff
 - Demo limit 25 runs x 10 days x up to 1 hour each session (BOT WILL CRASH AFTER)
 ```
-Bot is updated for OBT **0.9.18** patch, many happy users.
+Bot is updated for OBT **0.9.23** patch, many happy users.
 
 ![alt text](https://lh3.googleusercontent.com/-U5TxtkQsGAo/WT0D4gYqT7I/AAAAAAAARAw/WR11q7-R32sJJalo1HDFStWD3RhADhx5QCHM/s0/Discord_2017-06-11_11-47-08.png "discord")
 
