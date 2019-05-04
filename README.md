@@ -77,8 +77,8 @@ Gwent must be in **English** language, 1920x1080 or more, windows 7sp1-10, no cy
 4) Reboot PC
 
 # How it works <a name="how"></a>
-Neural net [darknet](https://github.com/AlexeyAB/darknet "darknet") to detect cards.
+Neural net [darknet](https://github.com/AlexeyAB/darknet "darknet") to detect cards
 
-OCR and Pixel color checking for detecting game state (card count, scores, leader state, end turn, round, etc). 
+OCR and Pixel color checking for detecting game state (card count, scores, leader state, end turn, round, etc)
 
 [CoreRT](https://github.com/dotnet/corert "CoreRT") compiller for .NET code
