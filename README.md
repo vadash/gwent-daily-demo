@@ -1,17 +1,19 @@
 # REQUIREMENTS
-* **Nvidia GPU**
+* **Nvidia GPU** (for now)
 
 Anything past 2013 with 1+ GB VRAM should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture)
 
-* 64 bit OS
+* 64 bit OS win7sp1+
 
-*  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10") 
+*  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10")
 
 10.0 exactly. 10.1 wont work
 
-*  410.48 or newer graphical driver
+*  410.48 or newer graphical driver (for CUDA)
 
-* 1920x1080 or bigger monitor
+* 1920x1080 or bigger monitor (720p later)
+
+![alt text](https://media.discordapp.net/attachments/571798162059034628/571882157300121615/unknown.png "CUDA install settings")
 
 # Table of contents
 1. [Features](#features)
