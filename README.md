@@ -1,9 +1,16 @@
 # REQUIREMENTS
 * **Nvidia GPU**
+
 Anything past 2013 with 1+ GB VRAM should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture)
+
 * 64 bit OS
-*  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10") (and 10.0 exactly. 10.1 wont work)
+
+*  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10") 
+
+10.0 exactly. 10.1 wont work
+
 *  410.48 or newer graphical driver
+
 * 1920x1080 or bigger monitor
 
 # Table of contents
@@ -45,8 +52,11 @@ https://www.playgwent.com/en/decks/cf4e677e4a60181bf4e698bb1ba8e316
 
 # Gwent settings <a name="settings"></a>
 FLUX https://justgetflux.com/ or similar tools should be off
+
 options->graphic->premium : DISABLED
+
 options->general->camera move on turn end : OFF
+
 options->general->auto turn end : ON
 
 Gwent must be in **English** language, 1920x1080 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, latest vcredist x64, and .NET 4.6, **windowed** mode, sometimes u need to run bot as admin
@@ -67,4 +77,8 @@ Gwent must be in **English** language, 1920x1080 or more, windows 7sp1-10, no cy
 4) Reboot PC
 
 # How it works <a name="how"></a>
-Neural net [darknet](https://github.com/AlexeyAB/darknet "darknet") to detect cards. OCR and Pixel color checking for detecting game state (card count, scores, leader state, end turn, round, etc). [CoreRT](https://github.com/dotnet/corert "CoreRT") compiller for .NET code
+Neural net [darknet](https://github.com/AlexeyAB/darknet "darknet") to detect cards.
+
+OCR and Pixel color checking for detecting game state (card count, scores, leader state, end turn, round, etc). 
+
+[CoreRT](https://github.com/dotnet/corert "CoreRT") compiller for .NET code
