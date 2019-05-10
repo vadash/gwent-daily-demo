@@ -1,5 +1,5 @@
 # REQUIREMENTS
-* **Nvidia GPU** (for now)
+* **Nvidia GPU** (CPU only later)
 
 Anything past 2013 with 1+ GB VRAM should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture)
 
@@ -9,7 +9,7 @@ Anything past 2013 with 1+ GB VRAM should work (Kepler, Maxwell, Pascal, Volta, 
 
 10.0 exactly. 10.1 wont work
 
-*  410.48 or newer graphical driver (for CUDA)
+*  410.48 or newer graphical driver (for CUDA). For pascal **425.31** is the best driver atm
 
 * 1920x1080 or bigger monitor (720p later)
 
