@@ -1,5 +1,15 @@
-# REQUIREMENTS
-* **Nvidia GPU** (CPU only later)
+# Introduction
+Gwent-daily is a bot for gwent the witcher CCG card game. Its based on robust image detection / OCR. Bot helps complete daily quests and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
+
+# Table of contents
+1. [REQUIREMENTS](#REQUIREMENTS)
+2. [Features](#features)
+3. [Settings](#settings)
+4. [Decks](#decks)
+5. [How it works](#how)
+
+# REQUIREMENTS <a name="REQUIREMENTS"></a> for faster work
+* **Nvidia GPU** (CPU only is pretty slow)
 
 Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture)
 
@@ -11,18 +21,9 @@ Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarch
 
 *  410.48 or newer graphical driver (for CUDA). For pascal **425.31** is the best driver atm
 
-* 1920x1080 or bigger monitor (720p later)
+* 1920x1080 or bigger monitor (720p support may come later)
 
 ![alt text](https://media.discordapp.net/attachments/571798162059034628/571882157300121615/unknown.png "CUDA install settings")
-
-# Table of contents
-1. [Features](#features)
-2. [Settings](#settings)
-3. [Decks](#decks)
-4. [How it works](#how)
-
-# Introduction
-Gwent-daily is a bot for gwent the witcher CCG card game. It helps complete daily rounds and smooth new player experience. Bot farms almost 4 packs and some scraps over night.
 
 # Features <a name="features"></a>
 Current
