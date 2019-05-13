@@ -43,6 +43,7 @@ Planned
 * Casual / ranked switch
 * Auto updating
 * More decks
+* Work in background
 
 # Hotkeys
 
