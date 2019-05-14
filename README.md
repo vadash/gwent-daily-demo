@@ -11,14 +11,14 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Its based on robust im
 # Requirements <a name="requirements"></a>
 ## Main
 
-* 64 bit OS win7-win10
+* 64 bit OS win7sp1-win10
 
 * 1920x1080 or bigger monitor (720p support may come later)
 
 * Gwent with ENGLISH locale. Check [Settings](#settings)
 
 ## Nvidia
-You are in luck. Bot is optimized for **Nvidia GPU** Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link above to get perfomance boost
+Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link below to get decent performance boost
 
 *  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10")
 
