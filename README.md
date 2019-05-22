@@ -38,6 +38,7 @@ Current
 * GG after match
 * Random bot window name
 * Random bot exe name
+* Decent winrate (rank 14, 42% winrate)
 
 Planned
 * Casual / ranked switch
