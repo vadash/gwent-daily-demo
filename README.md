@@ -38,7 +38,7 @@ Current
 * GG after match
 * Random bot window name
 * Random bot exe name
-* Decent winrate (rank 14, 42% winrate)
+* Decent winrate (42% winrate over 300 games, R10 achived in may season)
 
 Planned
 * Casual / ranked switch
