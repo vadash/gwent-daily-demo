@@ -60,17 +60,18 @@ Beta is up. Check link above
 https://www.playgwent.com/en/decks/cf4e677e4a60181bf4e698bb1ba8e316
 
 # Gwent settings <a name="settings"></a>
-FLUX https://justgetflux.com/ or similar tools should be off
-
-options->graphic->premium : DISABLED
 
 options->general->camera move on turn end : OFF
 
 options->general->auto turn end : ON
 
+options->general->battlefield board selection : MINE
+
+options->graphic->premium : DISABLED
+
 options->resolution->fullscreen : DISABLED
 
-Gwent must be in **English** language, 1920x1080 or more, windows 7sp1-10, no cyrillic/special symbols/spaces in windows username, latest vcredist x64, and .NET 4.6, **windowed** mode, sometimes u need to run bot as admin
+FLUX or windows 10 night light should be disabled as well
 
 ## scaling (can skip with 100% windows scaling)
 1) Find gwent game exe (not gog)
