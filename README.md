@@ -71,7 +71,7 @@ options->graphic->premium : DISABLED
 
 options->resolution->fullscreen : DISABLED
 
-FLUX or windows 10 night light should be disabled as well
+FLUX or windows 10 night light should be disabled as well. You can hide your name as well in options.
 
 ## scaling (can skip with 100% windows scaling)
 1) Find gwent game exe (not gog)
