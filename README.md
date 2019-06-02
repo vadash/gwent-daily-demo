@@ -75,15 +75,15 @@ dont forget to remove bad bronzes when you add new card. keep 25 cards in deck f
 
 # Gwent settings <a name="settings"></a>
 
-options->general->camera move on turn end : OFF
+options->general->camera move on turn end : OFF (helps bot to detect cards better)
 
-options->general->auto turn end : ON
+options->general->auto turn end : ON (speed up process)
 
-options->general->battlefield board selection : MINE
+options->general->battlefield board selection : MINE (optional)
 
-options->graphic->premium : DISABLED
+options->graphic->premium : DISABLED (or use non premium cards in deck)
 
-options->resolution->fullscreen : DISABLED
+options->resolution->fullscreen : DISABLED (dont need if you run game in 1920x1080 resolution)
 
 FLUX or windows 10 night light should be disabled as well
 
