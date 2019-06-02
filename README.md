@@ -15,7 +15,7 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Its based on robust im
 
 * 1920x1080 or bigger monitor (720p support may come later)
 
-* Gwent with ENGLISH locale. Check [Settings](#settings)
+* Gwent with ENGLISH locale. Check [Settings](#settings). They are very important for smooth gameplay with bot!
 
 ## Nvidia
 Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link below to get decent performance boost
@@ -57,7 +57,21 @@ Beta is up. Check link above
 
 # Decks <a name="decks"></a>
 
-https://www.playgwent.com/en/decks/cf4e677e4a60181bf4e698bb1ba8e316
+1) starter (0 legendaries, 0 epics, 4 extra cards) https://www.playgwent.com/en/decks/c73dd6c569495d0d755121abe82015ea
+
+should be enough to win few rounds here and there 
+
+2) craft order : 
+* woodland spirit leader (0 scraps). Unlock it in reward book ASAP
+* primordial dao (200)
+* katakan (200)
+* brewess + weavess (200+200)
+* old speartip (800)
+* weavess incantaion (800)
+
+dont forget to remove bad bronzes when you add new card. keep 25 cards in deck for maximum value
+
+3) current best https://www.playgwent.com/en/decks/cf4e677e4a60181bf4e698bb1ba8e316
 
 # Gwent settings <a name="settings"></a>
 
