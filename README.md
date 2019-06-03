@@ -71,7 +71,9 @@ should be enough to win few rounds here and there
 
 dont forget to remove bad bronzes when you add new card. keep 25 cards in deck for maximum value
 
-3) current best https://www.playgwent.com/en/decks/cf4e677e4a60181bf4e698bb1ba8e316
+3) current best https://www.playgwent.com/en/decks/745a0ba2362914615e2bcc6171fc932c
+
+**for your own SAFETY please replace few cards and dont use it as is**
 
 # Gwent settings <a name="settings"></a>
 
