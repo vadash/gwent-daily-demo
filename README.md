@@ -29,7 +29,7 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 ![alt text](https://media.discordapp.net/attachments/571798162059034628/571882157300121615/unknown.png "CUDA install settings")
 
 # Features <a name="features"></a>
-##Current
+## Current
 * Decent winrate (for a bot and Tier 3 deck)
 
 30-45% winrate over 500 games, R10 achived in may season
