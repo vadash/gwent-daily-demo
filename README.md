@@ -31,10 +31,15 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 # Features <a name="features"></a>
 Current
 * Decent winrate (for a bot and Tier 3 deck)
+
 30-45% winrate over 500 games, R10 achived in may season
+
 * Safe as possible
+
 No injecting. Random exe and title name. Human like mouse movement. Random sleep timers and coordinates for clicking. GG after match. Close to zero missplays with right deck. About 10000 games botted on main, still alive 
+
 * Easy to start
+
 Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
 Planned
