@@ -42,7 +42,7 @@ No injecting. Random exe and title name. Human like mouse movement. Random sleep
 
 Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
-##Planned
+## Planned
 * Casual / ranked switch
 * Auto updating
 * More decks (only monsters atm)
@@ -59,10 +59,10 @@ Beta is up. Check link above
 
 # Decks <a name="decks"></a>
 
-##Why monsters
+## Why monsters
 Allows zero interaction with enemy board. Cheap to start and doesnt contain complex mechanics so less miss plays
 
-##Starter
+## Starter
 0 legendaries, 0 epics, 4 extra cards
 https://www.playgwent.com/en/decks/c73dd6c569495d0d755121abe82015ea
 
@@ -78,7 +78,7 @@ Craft order :
 
 Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck for maximum value
 
-##Best
+## Best
 https://www.playgwent.com/en/decks/745a0ba2362914615e2bcc6171fc932c
 
 **for your own SAFETY please replace few cards and dont use it as is**
@@ -97,7 +97,7 @@ options->resolution->fullscreen : DISABLED (dont need if you run game in 1920x10
 
 FLUX or windows 10 night light should be disabled as well
 
-## scaling (can skip with 100% windows scaling)
+## Scaling (can skip with 100% windows scaling)
 1) Find gwent game exe (not gog)
 
 ![alt text](https://lh3.googleusercontent.com/-Riow_0Aq0t8/WYNSnp25eTI/AAAAAAAAR3o/n2S9JfBVz1gW3nGxFVOBsaugfoMsUp_gACHMYCw/s0/explorer_2017-08-03_19-43-08.png "scaling1")
