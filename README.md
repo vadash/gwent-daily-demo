@@ -29,7 +29,7 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 ![alt text](https://media.discordapp.net/attachments/571798162059034628/571882157300121615/unknown.png "CUDA install settings")
 
 # Features <a name="features"></a>
-Current
+##Current
 * Decent winrate (for a bot and Tier 3 deck)
 
 30-45% winrate over 500 games, R10 achived in may season
@@ -42,7 +42,7 @@ No injecting. Random exe and title name. Human like mouse movement. Random sleep
 
 Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
-Planned
+##Planned
 * Casual / ranked switch
 * Auto updating
 * More decks (only monsters atm)
@@ -59,11 +59,16 @@ Beta is up. Check link above
 
 # Decks <a name="decks"></a>
 
-1) starter (0 legendaries, 0 epics, 4 extra cards) https://www.playgwent.com/en/decks/c73dd6c569495d0d755121abe82015ea
+##Why monsters
+Allows zero interaction with enemy board. Cheap to start and doesnt contain complex mechanics so less miss plays
 
-should be enough to win few rounds here and there 
+##Starter
+0 legendaries, 0 epics, 4 extra cards
+https://www.playgwent.com/en/decks/c73dd6c569495d0d755121abe82015ea
 
-2) craft order : 
+Should be enough to win few rounds here and there 
+
+Craft order : 
 * woodland spirit leader (0 scraps). Unlock it in reward book ASAP
 * primordial dao (200)
 * katakan (200)
@@ -71,9 +76,10 @@ should be enough to win few rounds here and there
 * old speartip (800)
 * weavess incantaion (800)
 
-dont forget to remove bad bronzes when you add new card. keep 25 cards in deck for maximum value
+Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck for maximum value
 
-3) current best https://www.playgwent.com/en/decks/745a0ba2362914615e2bcc6171fc932c
+##Best
+https://www.playgwent.com/en/decks/745a0ba2362914615e2bcc6171fc932c
 
 **for your own SAFETY please replace few cards and dont use it as is**
 
