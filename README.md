@@ -33,7 +33,7 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 ## Current
 * Ok winrate (for a bot and Tier 3 deck)
 
-30-40% winrate over 500 games, R15 achived in may season
+30-40% winrate over 500 games, R15 achived
 
 * Safe as possible
 
