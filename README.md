@@ -3,10 +3,11 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 # Table of contents
 1. [Requirements](#requirements)
-2. [Features](#features)
-3. [Settings](#settings)
-4. [Decks](#decks)
-5. [How it works](#how)
+2. [Download](#download)
+3. [Features](#features)
+4. [Settings](#settings)
+5. [Decks](#decks)
+6. [How it works](#how)
 
 # Requirements <a name="requirements"></a>
 ## Main
@@ -30,9 +31,9 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 
 # Features <a name="features"></a>
 ## Current
-* Decent winrate (for a bot and Tier 3 deck)
+* Ok winrate (for a bot and Tier 3 deck)
 
-30-45% winrate over 500 games, R10 achived in may season
+30-40% winrate over 500 games, R15 achived in may season
 
 * Safe as possible
 
@@ -43,7 +44,6 @@ No injecting. Random exe and title name. Human like mouse movement. Random sleep
 Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
 ## Planned
-* Casual / ranked switch
 * Auto updating
 * More decks (only monsters atm)
 * Work in background
@@ -54,8 +54,12 @@ Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
 **F9** - start bot
 
-# Download <a name="download"></a>
-Beta is up. Check link above
+## Download <a name="download"></a>
+Download link https://cloud.mail.ru/public/nUrc/24ZAL8Cfh
+
+Can use on vmware (virtual machine) for extra safety
+
+Check guide in discord https://discord.gg/axjFQps
 
 # Decks <a name="decks"></a>
 
@@ -82,6 +86,13 @@ Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck f
 https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 
 **for your own SAFETY please replace few cards and dont use it as is**
+
+## Future plans (4+ patch)
+DOESNT WORK NOW
+
+Imlepent dwarf deck https://www.playgwent.com/en/decks/a479f43450343989acdb3d062e550bb9
+
+DOESNT WORK NOW
 
 # Gwent settings <a name="settings"></a>
 
