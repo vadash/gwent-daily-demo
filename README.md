@@ -90,7 +90,7 @@ https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 ## Future plans (4+ patch)
 DOESNT WORK NOW
 
-Imlepent dwarf deck https://www.playgwent.com/en/decks/a479f43450343989acdb3d062e550bb9
+Implement dwarf deck https://www.playgwent.com/en/decks/a479f43450343989acdb3d062e550bb9
 
 DOESNT WORK NOW
 
