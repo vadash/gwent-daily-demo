@@ -35,6 +35,9 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 
 * Crash fix (failed to initialize OCR) https://cdn.discordapp.com/attachments/646370777347784728/648124330839900160/Untitled_error.jpg -> You are probably running (N) version of Windows. Settings -> Apps -> Optional features -> Add a feature -> Media Feature Pack. Wait for install and reboot
 
+* Bot cant resize game window and stuck like this https://cdn.discordapp.com/attachments/652653041941610497/652740625933926413/Inkedgwent-2019-12-07-12-15-40_LI.jpg
+-> Hide task bar in windows settings
+
 # Features <a name="features"></a>
 ## Current
 * Ok winrate (for a bot and Tier 3 deck)
