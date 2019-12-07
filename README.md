@@ -18,6 +18,8 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 * Gwent with ENGLISH locale. Check [Settings](#settings). They are very important for smooth gameplay with bot!
 
+* CPU with AVX instruction (even 6 years old ones have it)
+
 ## Nvidia (can skip)
 Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link below to get decent performance boost
 
