@@ -20,7 +20,7 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 * CPU with AVX instruction (even 6 years old ones have it)
 
-## Nvidia (can skip)
+## Nvidia (optional, skip for virtual machine)
 Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link below to get decent performance boost
 
 *  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10")
@@ -38,7 +38,7 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 * Bot cant resize game window and stuck like this https://cdn.discordapp.com/attachments/652653041941610497/652740625933926413/Inkedgwent-2019-12-07-12-15-40_LI.jpg
 -> Hide task bar in windows settings
 
-* Insta crash. Check that your CPU has AVX instruction (basically newer than amd 7 years old fx 6300 and some xeon)
+* Insta crash -> Check that your CPU has AVX instruction (basically newer than amd 7 years old fx 6300 and some xeon)
 
 * Not reacting to F9 key. Settings > Ease of Access > Keyboard and use virtual keyboard
 
