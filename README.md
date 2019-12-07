@@ -38,6 +38,10 @@ Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Max
 * Bot cant resize game window and stuck like this https://cdn.discordapp.com/attachments/652653041941610497/652740625933926413/Inkedgwent-2019-12-07-12-15-40_LI.jpg
 -> Hide task bar in windows settings
 
+* Insta crash. Check that your CPU has AVX instruction (basically newer than amd 7 years old fx 6300 and some xeon)
+
+* Not reacting to F9 key. Settings > Ease of Access > Keyboard and use virtual keyboard
+
 # Features <a name="features"></a>
 ## Current
 * Ok winrate (for a bot and Tier 3 deck)
