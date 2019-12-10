@@ -80,8 +80,8 @@ Check guide in discord https://discord.gg/axjFQps
 Allows zero interaction with enemy board. Cheap to start and doesnt contain complex mechanics so less miss plays
 
 ## Starter
-0 legendaries, 0 epics, 4 extra cards
-https://www.playgwent.com/en/decks/c73dd6c569495d0d755121abe82015ea
+~700 scraps
+https://www.playgwent.com/en/decks/44050fe31406ebb920e24c4c96df6b5b
 
 Should be enough to win few rounds here and there 
 
@@ -96,6 +96,7 @@ Craft order :
 Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck for maximum value
 
 ## Best (3.2.0 patch)
+~3000 scraps
 https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 
 **for your own SAFETY please replace few cards and dont use it as is**
