@@ -93,7 +93,9 @@ Craft order :
 * old speartip (800)
 * weavess incantaion (800)
 
-Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck for maximum value
+Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck for maximum value. Supported cards list
+
+15_old_spaertip, 11_primordial_dao, 11_weavess_incantation, 10_golyat, 10_old_spaertip_asleep, 10_protofleder, 9_katakan, 9_ozzrel, 8_ice_giant, 8_whispess, 8_brewess, 8_weavess, 8_count_caldwell, 8_imlerith_wrath, 7_griffin, 6_celaeno_harpy, 6_cyclops, 6_ghoul, 6_parasite, 6_swallow, 6_wild_hunt_rider, 5_alpha_werewolf, 5_wyvern, 4_archespore, 4_cutthroat, 4_foglet, 4_nekker, 4_nekker_warrior, 4_plumard, 4_werewolf, 0_tactical_advantage
 
 ## Best (3.2.0 patch)
 ~3000 scraps
