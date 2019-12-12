@@ -97,13 +97,13 @@ Dont forget to remove bad bronzes when you add new card. Keep 25 cards in deck f
 
 15_old_spaertip, 11_primordial_dao, 11_weavess_incantation, 10_golyat, 10_old_spaertip_asleep, 10_protofleder, 9_katakan, 9_ozzrel, 8_ice_giant, 8_whispess, 8_brewess, 8_weavess, 8_count_caldwell, 8_imlerith_wrath, 7_griffin, 6_celaeno_harpy, 6_cyclops, 6_ghoul, 6_parasite, 6_swallow, 6_wild_hunt_rider, 5_alpha_werewolf, 5_wyvern, 4_archespore, 4_cutthroat, 4_foglet, 4_nekker, 4_nekker_warrior, 4_plumard, 4_werewolf, 0_tactical_advantage
 
-## Best (3.2.0 patch)
+## Best
 ~3000 scraps
 https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 
 **for your own SAFETY please replace few cards and dont use it as is**
 
-## Future plans (4+ patch)
+## Future plans
 DOESNT WORK NOW
 
 Implement dwarf deck https://www.playgwent.com/en/decks/a479f43450343989acdb3d062e550bb9
