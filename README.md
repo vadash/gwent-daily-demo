@@ -7,7 +7,6 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 3. [Features](#features)
 4. [Settings](#settings)
 5. [Decks](#decks)
-6. [How it works](#how)
 
 # Requirements <a name="requirements"></a>
 ## Main
@@ -138,10 +137,3 @@ FLUX or windows 10 night light should be disabled as well
 ![alt text](https://lh3.googleusercontent.com/-Fk6Ip4vRqw8/WYNS8FxeqmI/AAAAAAAAR3w/0B8tKmYcF78jFDzcGCX3kiGSG3iLQ-XNwCHMYCw/s0/ApplicationFrameHost_2017-08-03_19-44-30.png "scaling3")
 
 4) Reboot PC
-
-# How it works <a name="how"></a>
-Neural net [darknet](https://github.com/AlexeyAB/darknet "darknet") to detect cards
-
-OCR, Pixel color checking and image comparing for detecting game state (card count, scores, leader state, end turn, round, etc)
-
-[CoreRT](https://github.com/dotnet/corert "CoreRT") compiller for .NET code
