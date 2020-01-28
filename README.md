@@ -9,9 +9,8 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 5. [Decks](#decks)
 
 # Requirements <a name="requirements"></a>
-## Main
 
-* 64 bit OS win7sp1-win10
+* 64 bit OS win10
 
 * 1920x1080 or bigger monitor (720p support may come later)
 
