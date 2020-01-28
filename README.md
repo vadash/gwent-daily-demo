@@ -19,17 +19,6 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 * CPU with AVX instruction (even 6 years old ones have it)
 
-## Nvidia (optional, skip for virtual machine)
-Bot is optimized for **Nvidia GPU**. Anything past 2013 should work (Kepler, Maxwell, Pascal, Volta, Turing microarchitecture). Install CUDA from link below to get decent performance boost
-
-*  [CUDA10.0](https://developer.nvidia.com/compute/cuda/10.0/Prod/network_installers/cuda_10.0.130_win10_network "CUDA10")
-
-10.0 exactly. 10.1 wont work
-
-*  410.48 or newer graphical driver (for CUDA)
-
-![alt text](https://media.discordapp.net/attachments/571798162059034628/571882157300121615/unknown.png "CUDA install settings")
-
 # Troubleshooting
 
 * Crash fix (failed to initialize OCR) https://cdn.discordapp.com/attachments/646370777347784728/648124330839900160/Untitled_error.jpg -> You are probably running (N) version of Windows. Settings -> Apps -> Optional features -> Add a feature -> Media Feature Pack. Wait for install and reboot
