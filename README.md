@@ -59,7 +59,7 @@ Download link https://cloud.mail.ru/public/nUrc/24ZAL8Cfh
 
 Can use on vmware (virtual machine) for extra safety
 
-Check guide in discord https://discord.gg/axjFQps
+Check guide in discord https://discord.gg/5HnsEkk
 
 # Decks <a name="decks"></a>
 
@@ -91,11 +91,7 @@ https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 **for your own SAFETY please replace few cards and dont use it as is**
 
 ## Future plans
-DOESNT WORK NOW
-
-Implement dwarf deck https://www.playgwent.com/en/decks/a479f43450343989acdb3d062e550bb9
-
-DOESNT WORK NOW
+Working on new monster deck
 
 # Gwent settings <a name="settings"></a>
 
