@@ -29,6 +29,10 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 * Not reacting to F9 key. Settings > Ease of Access > Keyboard and use virtual keyboard
 
+Q: Everything was good and now bot just idle 24/7 after mulligan
+
+A: Please use default coin MTX. Bot relyes on PASS / END text over coin
+
 # Features <a name="features"></a>
 ## Current
 * Ok winrate (for a bot and Tier 3 deck)
