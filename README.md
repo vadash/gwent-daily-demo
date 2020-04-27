@@ -39,7 +39,7 @@ Check that you are running 100% UI scale in windows
 
 https://cdn.discordapp.com/attachments/699492405531115621/699722393630933093/unknown.png
 
-Right click loader.exe -> Compatibility -> Change high DPI settings -> Override and select application
+Right click GWENT.exe -> Compatibility -> Change high DPI settings -> Override and select application
 
 ![override_dpi](https://i.imgur.com/y6PpJ9v.png)
 
