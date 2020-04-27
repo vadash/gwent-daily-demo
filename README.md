@@ -33,6 +33,16 @@ Q: Everything was good and now bot just idle 24/7 after mulligan
 
 A: Please use default coin MTX. Bot relyes on PASS / END text over coin
 
+* Bot is doing nothing
+
+Check that you are running 100% UI scale in windows 
+
+https://cdn.discordapp.com/attachments/699492405531115621/699722393630933093/unknown.png
+
+Right click loader.exe -> Compatibility -> Change high DPI settings -> Override and select application
+
+![override_dpi](https://i.imgur.com/y6PpJ9v.png)
+
 # Features <a name="features"></a>
 ## Current
 * Ok winrate (for a bot and Tier 3 deck)
@@ -94,9 +104,6 @@ https://www.playgwent.com/en/decks/b03673ca178431219ddce649873e6c72
 
 **for your own SAFETY please replace few cards and dont use it as is**
 
-## Future plans
-Working on new monster deck
-
 # Gwent settings <a name="settings"></a>
 
 options->general->camera move on turn end : OFF (helps bot to detect cards better)
@@ -110,18 +117,3 @@ options->graphic->premium : DISABLED (or use non premium cards in deck)
 options->resolution->fullscreen : DISABLED (dont need if you run game in 1920x1080 resolution)
 
 FLUX or windows 10 night light should be disabled as well
-
-## Scaling (can skip with 100% windows scaling)
-1) Find gwent game exe (not gog)
-
-![alt text](https://lh3.googleusercontent.com/-Riow_0Aq0t8/WYNSnp25eTI/AAAAAAAAR3o/n2S9JfBVz1gW3nGxFVOBsaugfoMsUp_gACHMYCw/s0/explorer_2017-08-03_19-43-08.png "scaling1")
-
-2) Change scaling mode 
-
-![alt text](https://lh3.googleusercontent.com/-Bzd5Y2jgwIg/WYNSy0QV1II/AAAAAAAAR3s/57RYhR55x8YaGcx6a_9uKq7kVut7UDAmACHMYCw/s0/explorer_2017-08-03_19-43-53.png "scaling2")
-
-3) Change windows scaling
-
-![alt text](https://lh3.googleusercontent.com/-Fk6Ip4vRqw8/WYNS8FxeqmI/AAAAAAAAR3w/0B8tKmYcF78jFDzcGCX3kiGSG3iLQ-XNwCHMYCw/s0/ApplicationFrameHost_2017-08-03_19-44-30.png "scaling3")
-
-4) Reboot PC
