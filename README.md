@@ -57,23 +57,11 @@ No injecting. Random exe and title name. Human like mouse movement. Random sleep
 
 Deck costs 3k scraps and you can start since day one with ~500 scraps invested
 
-## Planned
-* Auto updating
-* More decks (only monsters atm)
-* Work in background
-
 # Hotkeys
 
 **F10** or **Tab** - stop bot
 
 **F9** - start bot
-
-## Download <a name="download"></a>
-Download link https://cloud.mail.ru/public/nUrc/24ZAL8Cfh
-
-Can use on vmware (virtual machine) for extra safety
-
-Check guide in discord https://discord.gg/5HnsEkk
 
 # Decks <a name="decks"></a>
 
