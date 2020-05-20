@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{21722289-8C8D-49B5-9525-B7596AB8B874}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>gwent_daily_reborn</RootNamespace>
+        <AssemblyName>gwent_daily_reborn</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>x64</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32bit>false</Prefer32bit>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>x64</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32bit>false</Prefer32bit>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="..\GlobalAssemblyInfo.cs">
+          <Link>Properties\GlobalAssemblyInfo.cs</Link>
+        </Compile>
+        <Compile Include="ControlBot.cs" />
+        <Compile Include="Model\Cards\Card.cs" />
+        <Compile Include="Model\Cards\CardFactory.cs" />
+        <Compile Include="Model\Cards\Extra\GernichorasFruit.cs" />
+        <Compile Include="Model\Cards\Extra\TacticalAdvantage.cs" />
+        <Compile Include="Model\Cards\Extra\Token.cs" />
+        <Compile Include="Model\Cards\ICardFactory.cs" />
+        <Compile Include="Model\Cards\Leader\WoodlandSpirit.cs" />
+        <Compile Include="Model\Cards\Monster\AlphaWerewolf.cs" />
+        <Compile Include="Model\Cards\Monster\Archespore.cs" />
+        <Compile Include="Model\Cards\Monster\Brewess.cs" />
+        <Compile Include="Model\Cards\Monster\CelaenoHarpy.cs" />
+        <Compile Include="Model\Cards\Monster\Cyclops.cs" />
+        <Compile Include="Model\Cards\Monster\Foglet.cs" />
+        <Compile Include="Model\Cards\Monster\Ghoul.cs" />
+        <Compile Include="Model\Cards\Monster\Golyat.cs" />
+        <Compile Include="Model\Cards\Monster\Griffin.cs" />
+        <Compile Include="Model\Cards\Monster\IceGiant.cs" />
+        <Compile Include="Model\Cards\Monster\ImlerithWrath.cs" />
+        <Compile Include="Model\Cards\Monster\Katakan.cs" />
+        <Compile Include="Model\Cards\Monster\Nekker.cs" />
+        <Compile Include="Model\Cards\Monster\NekkerWarrior.cs" />
+        <Compile Include="Model\Cards\Monster\OldSpeartip.cs" />
+        <Compile Include="Model\Cards\Monster\OldSpeartipAsleep.cs" />
+        <Compile Include="Model\Cards\Monster\Ozzrel.cs" />
+        <Compile Include="Model\Cards\Monster\Parasite.cs" />
+        <Compile Include="Model\Cards\Monster\Plumard.cs" />
+        <Compile Include="Model\Cards\Monster\Protofleder.cs" />
+        <Compile Include="Model\Cards\Monster\Weavess.cs" />
+        <Compile Include="Model\Cards\Monster\WeavessIncantation.cs" />
+        <Compile Include="Model\Cards\Monster\Werewolf.cs" />
+        <Compile Include="Model\Cards\Monster\Whispess.cs" />
+        <Compile Include="Model\Cards\Monster\WildHuntRider.cs" />
+        <Compile Include="Model\Cards\Monster\Wyvern.cs" />
+        <Compile Include="Model\Cards\Neutral\CountCaldwell.cs" />
+        <Compile Include="Model\Cards\Neutral\Cutthroat.cs" />
+        <Compile Include="Model\Cards\Neutral\PrimordialDao.cs" />
+        <Compile Include="Model\Cards\Neutral\Swallow.cs" />
+        <Compile Include="Model\Control\ActionManager\ActionManager.cs" />
+        <Compile Include="Model\Control\ActionManager\IActionManager.cs" />
+        <Compile Include="Model\Control\BotTasks\BmTask.cs" />
+        <Compile Include="Model\Control\BotTasks\EndTurn.cs" />
+        <Compile Include="Model\Control\BotTasks\FinishMulliganTask.cs" />
+        <Compile Include="Model\Control\BotTasks\GiveGG.cs" />
+        <Compile Include="Model\Control\BotTasks\IBotTask.cs" />
+        <Compile Include="Model\Control\BotTasks\KeyboardTask.cs" />
+        <Compile Include="Model\Control\BotTasks\LeftMouseClick.cs" />
+        <Compile Include="Model\Control\BotTasks\MouseMoveTask.cs" />
+        <Compile Include="Model\Control\BotTasks\PassTask.cs" />
+        <Compile Include="Model\Control\BotTasks\SleepTask.cs" />
+        <Compile Include="Model\Control\BotTasks\StartGameTask.cs" />
+        <Compile Include="Model\Control\BotTasks\TooltipTask.cs" />
+        <Compile Include="Model\Control\IControl.cs" />
+        <Compile Include="Model\Control\SimpleControl.cs" />
+        <Compile Include="Model\Control\Strategy\IStrategy.cs" />
+        <Compile Include="Model\Control\Strategy\MonsterStrategy.cs" />
+        <Compile Include="Model\GameInfo\Board.cs" />
+        <Compile Include="Model\GameInfo\Extra.cs" />
+        <Compile Include="Model\GameInfo\Hand.cs" />
+        <Compile Include="Model\GameInfo\IBoard.cs" />
+        <Compile Include="Model\GameInfo\IExtra.cs" />
+        <Compile Include="Model\GameInfo\IHand.cs" />
+        <Compile Include="Model\GameInfo\IMulligan.cs" />
+        <Compile Include="Model\GameInfo\Mulligan.cs" />
+        <Compile Include="Model\GameMemory\IDeckList.cs" />
+        <Compile Include="Model\GameMemory\IGameMemory.cs" />
+        <Compile Include="Model\GameMemory\Monster2DeckList.cs" />
+        <Compile Include="Model\GameMemory\SimpleGameMemory.cs" />
+        <Compile Include="Model\Helpers\IResetAfterGame.cs" />
+        <Compile Include="Model\Helpers\Keyboard\IKeyboard.cs" />
+        <Compile Include="Model\Helpers\Keyboard\Key.cs" />
+        <Compile Include="Model\Helpers\Keyboard\Keyboard.cs" />
+        <Compile Include="Model\Helpers\Keyboard\Messaging.cs" />
+        <Compile Include="Model\Helpers\ManipulateGwentWindow.cs" />
+        <Compile Include="Model\Helpers\Mouse\IMouse.cs" />
+        <Compile Include="Model\Helpers\Mouse\Mouse.cs" />
+        <Compile Include="Model\Helpers\Tooltip\ITooltip.cs" />
+        <Compile Include="Model\Helpers\Tooltip\Nulltip.cs" />
+        <Compile Include="Model\Helpers\Tooltip\SimpleTooltip.cs" />
+        <Compile Include="Model\Helpers\Utility.cs" />
+        <Compile Include="Model\NN\NeuralNet.cs" />
+        <Compile Include="Model\Recognition\IImageCompare.cs" />
+        <Compile Include="Model\Recognition\ImageCompare.cs" />
+        <Compile Include="Model\Recognition\Info.cs" />
+        <Compile Include="Model\Recognition\IOcr.cs" />
+        <Compile Include="Model\Recognition\IRecognition.cs" />
+        <Compile Include="Model\Recognition\OpenCvOcrMt.cs" />
+        <Compile Include="Model\Recognition\OpenCvOcrSt.cs" />
+        <Compile Include="Model\Recognition\Recognition.cs" />
+        <Compile Include="Model\Recognition\ScreenShotManager\IScreenShotManager.cs" />
+        <Compile Include="Model\Recognition\ScreenShotManager\ScreenShotManagerMockup.cs" />
+        <Compile Include="Model\Recognition\ScreenShotManager\ScreenShotManagerStandard.cs" />
+        <Compile Include="Model\Services.cs" />
+        <Compile Include="Model\Settings\BotSettings.cs" />
+        <Compile Include="Model\Settings\Hardware1080p.cs" />
+        <Compile Include="Model\Settings\IHardwareConstants.cs" />
+        <Compile Include="ObfuscationSettings.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Security.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="SimpleInjector" Version="4.8.1" />
+        <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.4.20251.6" />
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="Alturos.Yolo, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\3rd\Alturos.Yolo.dll</HintPath>
+        </Reference>
+        <Reference Include="Emgu.CV.World">
+            <HintPath>..\3rd\Emgu.CV.World.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="images\1080p\Detect_endgame_defeat.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Detect_endgame_draw.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Detect_endgame_streak.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Detect_endgame_victory.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Detect_Enemy_Turn.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Detect_must_play_card.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="images\1080p\Usurper_lock.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="tessdata\digits.traineddata">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="tessdata\eng.traineddata">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="trainfiles\gwent_monster2.cfg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="trainfiles\gwent_monster2.names">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="trainfiles\gwent_monster2.weights">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\concrt140.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\cvextern.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\msvcp140.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\msvcr100.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\opencv_videoio_ffmpeg411_64.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\opencv_world411.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\pthreadGC2.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\pthreadVC2.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\vcruntime140.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\yolo_cpp_dll_cpu.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="x64\yolo_cpp_dll_gpu.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
