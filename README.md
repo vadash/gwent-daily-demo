@@ -3,7 +3,7 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 # Table of contents
 1. [Requirements](#requirements)
-2. [Download](#download)
+2. [Download](https://github.com/vadash/gwent-daily-demo/releases)
 3. [Features](#features)
 4. [Settings](#settings)
 5. [Decks](#decks)
