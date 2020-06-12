@@ -1,9 +1,11 @@
+![GitHub All Releases](https://img.shields.io/github/downloads/vadash/gwent-daily-demo/total)
+
 # Introduction
 Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete daily quests and smooth new player experience. Created to farm reward points and some experience over night.
 
 # Table of contents
 1. [Requirements](#requirements)
-2. [Download](#download)
+2. [Download](https://github.com/vadash/gwent-daily-demo/releases)
 3. [Features](#features)
 4. [Settings](#settings)
 5. [Decks](#decks)
@@ -12,7 +14,7 @@ Gwent-daily is a bot for gwent the witcher CCG card game. Bot helps complete dai
 
 * 64 bit OS win10
 
-* 1920x1080 or bigger monitor (720p support may come later)
+* 1920x1080 or bigger monitor
 
 * Gwent with ENGLISH locale. Check [Settings](#settings). They are very important for smooth gameplay with bot!
 
