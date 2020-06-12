@@ -144,8 +144,8 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-        <PackageReference Include="SimpleInjector" Version="4.8.1" />
-        <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.4.20251.6" />
+        <PackageReference Include="SimpleInjector" Version="5.0.0" />
+        <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.5.20278.1" />
     </ItemGroup>
     <ItemGroup>
         <Reference Include="Alturos.Yolo, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null">

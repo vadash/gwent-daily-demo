@@ -74,8 +74,8 @@ namespace gwent_daily_reborn.Model.Settings
             "CLOSE"); // your rewards (close only)
         
         public RectoString ModalDialogButton4 => new RectoString(
-            new Rectangle(927, 597, 66, 17),
-            "XXXXXXX"); // XXXXXXX
+            new Rectangle(915, 1007, 91, 19),
+            "CONTINUE"); // welcome back
 
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 

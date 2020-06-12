@@ -93,7 +93,9 @@ namespace gwent_daily_reborn.Model.Control
                         new TooltipTask("Closing window #4"),
                         new MouseMoveTask(hardware.ModalDialogButton4.Rectangle),
                         new LeftMouseClick(),
-                        new SleepTask(3000)
+                        new SleepTask(3000),
+                        new LeftMouseClick(),
+                        new SleepTask(3000),
                     };
                     break;
                 case Info.Stuck:
