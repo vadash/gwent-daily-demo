@@ -22,7 +22,7 @@
         public static Factions Faction { get; set; }
         public static Leaders Leader { get; set; }
         public static string MainNName { get; set; } = "gwent_monster2";
-        public static bool IsRunning { get; set; }
+        public static bool IsRunning { get; set; } = true;
         public static bool TerminateAsap { get; set; }
     }
 }
