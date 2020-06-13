@@ -134,6 +134,21 @@ namespace gwent_daily_reborn.Model.Recognition
                 info = Info.CloseModalDialog4;
                 return true;
             }
+            if (Extra.IsModalDialog5Opened == true)
+            {
+                info = Info.CloseModalDialog5;
+                return true;
+            }
+            if (Extra.IsModalDialog6Opened == true)
+            {
+                info = Info.CloseModalDialog6;
+                return true;
+            }
+            if (Extra.IsModalDialog7Opened == true)
+            {
+                info = Info.CloseModalDialog7;
+                return true;
+            }
             return false;
         }
 
@@ -282,6 +297,26 @@ namespace gwent_daily_reborn.Model.Recognition
                 return Ocr.AreSame(
                     Hardware.ModalDialogButton4.Text, image);
             });
+            var isModalDialog5Opened = Task.Run(() =>
+            {
+                var image = ssManager.CloneImage(Hardware.ModalDialogButton5.Rectangle).Convert<Gray, byte>();
+                return Ocr.AreSame(
+                    Hardware.ModalDialogButton5.Text, image);
+            });
+            var isModalDialog6Opened = Task.Run(() =>
+            {
+                var image = ssManager.CloneImage(Hardware.ModalDialogButton6.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 127);
+                return Ocr.AreSame(
+                    Hardware.ModalDialogButton6.Text, image);
+            });
+            var isModalDialog7Opened = Task.Run(() =>
+            {
+                var image = ssManager.CloneImage(Hardware.ModalDialogButton7.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 127);
+                return Ocr.AreSame(
+                    Hardware.ModalDialogButton7.Text, image);
+            });
             var isEndGameDefeat = Task.Run(() =>
             {
                 var image = ssManager.CloneImage(Hardware.EndGameResultLocation);
@@ -325,6 +360,7 @@ namespace gwent_daily_reborn.Model.Recognition
                 isEnemyPassed, isEndTurn, ourScore, enemyScore,
                 roundStatus, isPickCard, needStartGame, isModalDialog1Opened,
                 isModalDialog2Opened, isModalDialog3Opened, isModalDialog4Opened,
+                isModalDialog5Opened, isModalDialog6Opened, isModalDialog7Opened,
                 isEndGameDefeat, isEndGameDraw, isEndGameVictory, isEndGameStreak, 
                 mustPlayCard, undoAction, enemyTurn).ConfigureAwait(false);
 
@@ -333,8 +369,9 @@ namespace gwent_daily_reborn.Model.Recognition
                 isEnemyPassed.Result, isEndTurn.Result, ourScore.Result, enemyScore.Result,
                 roundStatus.Result, isPickCard.Result, needStartGame.Result,
                 isEndGameDefeat.Result || isEndGameDraw.Result || isEndGameVictory.Result || isEndGameStreak.Result,
-                isModalDialog1Opened.Result,
+                isModalDialog1Opened.Result, 
                 isModalDialog2Opened.Result, isModalDialog3Opened.Result, isModalDialog4Opened.Result,
+                isModalDialog5Opened.Result, isModalDialog6Opened.Result, isModalDialog7Opened.Result,
                 mustPlayCard.Result, undoAction.Result, enemyTurn.Result);
 
             return true;

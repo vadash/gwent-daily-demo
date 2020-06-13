@@ -65,6 +65,9 @@ namespace gwent_daily_reborn.Model.Recognition
         /// <summary>
         /// Enemy turn
         /// </summary>
-        EnemyTurn
+        EnemyTurn,
+        CloseModalDialog5,
+        CloseModalDialog6,
+        CloseModalDialog7
     }
 }

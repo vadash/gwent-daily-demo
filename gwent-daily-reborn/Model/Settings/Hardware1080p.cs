@@ -61,22 +61,55 @@ namespace gwent_daily_reborn.Model.Settings
 
         public Rectangle BoardEmptySpaceLocation => new Rectangle(0, 0, 1500, 480);
 
+        /// <summary>
+        /// game over + connection lost, white text
+        /// </summary>
         public RectoString ModalDialogButton1 => new RectoString(
             new Rectangle(927 - 2, 594 - 2, 66 + 4, 18 + 4),
-            "ACCEPT"); // game over + connection lost
+            "ACCEPT");
 
+        /// <summary>
+        /// your rewards (next + close), white text
+        /// </summary>
         public RectoString ModalDialogButton2 => new RectoString(
             new Rectangle(997, 1005, 58, 20),
-            "CLOSE"); // your rewards (next + close)
+            "CLOSE");
         
+        /// <summary>
+        /// your rewards (close only), white text
+        /// </summary>
         public RectoString ModalDialogButton3 => new RectoString(
             new Rectangle(931, 1005, 58, 20),
-            "CLOSE"); // your rewards (close only)
+            "CLOSE");
         
+        /// <summary>
+        /// welcome back, white text
+        /// </summary>
         public RectoString ModalDialogButton4 => new RectoString(
             new Rectangle(915, 1007, 91, 19),
-            "CONTINUE"); // welcome back
+            "CONTINUE");
 
+        /// <summary>
+        /// PRESS enter to begin, green text
+        /// </summary>
+        public RectoString ModalDialogButton5 => new RectoString(
+            new Rectangle(811, 997, 64, 28),
+            "PRESS");
+
+        /// <summary>
+        /// placeholder
+        /// </summary>
+        public RectoString ModalDialogButton6 => new RectoString(
+            new Rectangle(1, 1, 1, 1),
+            "1111111111111");
+        
+        /// <summary>
+        /// placeholder
+        /// </summary>
+        public RectoString ModalDialogButton7 => new RectoString(
+            new Rectangle(1, 1, 1, 1),
+            "1111111111111");
+        
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 
         public RectoColor LeaderChargeOn => new RectoColor(

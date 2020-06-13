@@ -20,6 +20,9 @@ namespace gwent_daily_reborn.Model.GameInfo
         public bool? IsModalDialog2Opened { get; private set; }
         public bool? IsModalDialog3Opened { get; private set; }
         public bool? IsModalDialog4Opened { get; private set; }
+        public bool? IsModalDialog7Opened { get; set; }
+        public bool? IsModalDialog6Opened { get; set; }
+        public bool? IsModalDialog5Opened { get; set; }
         public bool? MustPlayCard { get; private set; }
         public bool? UndoAction { get; private set; }
         public bool? EnemyTurn { get; private set; }
@@ -30,6 +33,7 @@ namespace gwent_daily_reborn.Model.GameInfo
             int enemyScore, Rounds currentRound, bool isPickCard,
             bool needStartGame, bool isEndGame, bool isModalDialog1Opened,
             bool isModalDialog2Opened, bool isModalDialog3Opened, bool isModalDialog4Opened,
+            bool isModalDialog5Opened, bool isModalDialog6Opened, bool isModalDialog7Opened, 
             bool mustPlayCard, bool undoAction, bool enemyTurn)
         {
             IsMulligan = isMulligan;
@@ -51,6 +55,9 @@ namespace gwent_daily_reborn.Model.GameInfo
             IsModalDialog2Opened = isModalDialog2Opened;
             IsModalDialog3Opened = isModalDialog3Opened;
             IsModalDialog4Opened = isModalDialog4Opened;
+            IsModalDialog5Opened = isModalDialog5Opened;
+            IsModalDialog6Opened = isModalDialog6Opened;
+            IsModalDialog7Opened = isModalDialog7Opened;
             MustPlayCard = mustPlayCard;
             UndoAction = undoAction;
             EnemyTurn = enemyTurn;

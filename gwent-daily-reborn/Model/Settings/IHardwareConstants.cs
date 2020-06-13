@@ -246,6 +246,10 @@ namespace gwent_daily_reborn.Model.Settings
         /// </summary>
         Rectangle EndGameCloseBtnLocation { get; }
 
+        RectoString ModalDialogButton5 { get; }
+        RectoString ModalDialogButton6 { get; }
+        RectoString ModalDialogButton7 { get; }
+
         #endregion
 
     }

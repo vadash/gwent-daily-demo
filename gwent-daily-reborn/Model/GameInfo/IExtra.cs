@@ -21,13 +21,16 @@
         bool? MustPlayCard { get; }
         bool? UndoAction { get; }
         bool? EnemyTurn { get; }
+        bool? IsModalDialog5Opened { get; set; }
+        bool? IsModalDialog6Opened { get; set; }
+        bool? IsModalDialog7Opened { get; set; }
 
-        void Update(
-            bool isMulligan, bool isOurTurn, bool isLeaderOn, bool isLeaderOff,
+        void Update(bool isMulligan, bool isOurTurn, bool isLeaderOn, bool isLeaderOff,
             bool isEnemyPassed, bool isEndTurn, int ourScore,
             int enemyScore, Rounds currentRound, bool isPickCard,
             bool needStartGame, bool isEndGame, bool isModalDialog1Opened,
-            bool isModalDialog2Opened, bool isModalDialog3Opened, bool isModalDialog4Opened, 
+            bool isModalDialog2Opened, bool isModalDialog3Opened, bool isModalDialog4Opened,
+            bool isModalDialog5Opened, bool isModalDialog6Opened, bool isModalDialog7Opened,
             bool mustPlayCard, bool undoAction, bool enemyTurn);
     }
 

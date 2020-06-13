@@ -98,6 +98,10 @@ namespace gwent_daily_reborn.Model.Control
                         new SleepTask(3000),
                     };
                     break;
+                case Info.CloseModalDialog5:
+                case Info.CloseModalDialog6:
+                case Info.CloseModalDialog7:
+                    break;
                 case Info.Stuck:
                     tasks = new List<IBotTask>
                         {
