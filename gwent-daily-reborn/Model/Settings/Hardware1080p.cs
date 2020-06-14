@@ -97,11 +97,11 @@ namespace gwent_daily_reborn.Model.Settings
             "PRESS");
 
         /// <summary>
-        /// placeholder
+        /// Click anywhere to continue, white text
         /// </summary>
         public RectoString ModalDialogButton6 => new RectoString(
-            new Rectangle(1, 1, 1, 1),
-            "1111111111111");
+            new Rectangle(844, 950, 144, 39),
+            "anywhere");
         
         /// <summary>
         /// placeholder

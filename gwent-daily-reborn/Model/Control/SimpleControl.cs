@@ -94,13 +94,34 @@ namespace gwent_daily_reborn.Model.Control
                         new MouseMoveTask(hardware.ModalDialogButton4.Rectangle),
                         new LeftMouseClick(),
                         new SleepTask(3000),
+                    };
+                    break;
+                case Info.CloseModalDialog5:
+                    tasks = new List<IBotTask>
+                    {
+                        new TooltipTask("Closing window #5"),
+                        new MouseMoveTask(hardware.ModalDialogButton5.Rectangle),
                         new LeftMouseClick(),
                         new SleepTask(3000),
                     };
                     break;
-                case Info.CloseModalDialog5:
                 case Info.CloseModalDialog6:
+                    tasks = new List<IBotTask>
+                    {
+                        new TooltipTask("Closing window #6"),
+                        new MouseMoveTask(hardware.ModalDialogButton6.Rectangle),
+                        new LeftMouseClick(),
+                        new SleepTask(3000),
+                    };
+                    break;
                 case Info.CloseModalDialog7:
+                    tasks = new List<IBotTask>
+                    {
+                        new TooltipTask("Closing window #7"),
+                        new MouseMoveTask(hardware.ModalDialogButton7.Rectangle),
+                        new LeftMouseClick(),
+                        new SleepTask(3000),
+                    };
                     break;
                 case Info.Stuck:
                     tasks = new List<IBotTask>
