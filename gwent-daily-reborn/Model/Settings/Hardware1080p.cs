@@ -45,7 +45,7 @@ namespace gwent_daily_reborn.Model.Settings
             new Rectangle(1856, 999, 7, 20),
             Color.FromArgb(176, 134, 80), 20, 32);
 
-        public Rectangle StartGameClickLocation => new Rectangle(812, 342, 151, 338);
+        public Rectangle StartGameClickLocation => new Rectangle(432, 365, 123, 365);
 
         public RectoString EnemyPassedDetection => new RectoString(
             new Rectangle(882, 52, 157, 43),
