@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using gwent_daily_reborn.Model.Control.BotTasks;
+using gwent_daily_reborn.Model.Helpers.Keyboard;
 using gwent_daily_reborn.Model.Settings;
 
 namespace gwent_daily_reborn.Model.Cards.Leader
@@ -30,6 +31,9 @@ namespace gwent_daily_reborn.Model.Cards.Leader
             tasks.Add(new MouseMoveTask(emptyArea));
             tasks.Add(new LeftMouseClick());
             tasks.Add(new SleepTask(1000));
+            tasks.Add(new KeyboardTask(Messaging.VKeys.Up));
+            tasks.Add(new KeyboardTask(Messaging.VKeys.Down));
+            tasks.Add(new KeyboardTask(Messaging.VKeys.Enter));
             return true;
         }
     }

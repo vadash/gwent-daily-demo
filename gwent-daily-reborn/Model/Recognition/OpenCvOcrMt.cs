@@ -49,7 +49,7 @@ namespace gwent_daily_reborn.Model.Recognition
                 for (var i = 0; i < MaxTextOcr; i++)
                 {
                     // fast eng version
-                    var ocr = new Tesseract(path, "eng", OcrEngineMode.TesseractLstmCombined);
+                    var ocr = new Tesseract(path, "eng", OcrEngineMode.LstmOnly);
                     ocr.SetVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
                     ocr.PageSegMode = PageSegMode.SingleLine;
                     OcrText.Add(new OcrWithMutex(ocr, new object()));

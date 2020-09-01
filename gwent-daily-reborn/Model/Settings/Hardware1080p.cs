@@ -41,9 +41,9 @@ namespace gwent_daily_reborn.Model.Settings
             new Rectangle(830, 33, 93, 45),
             "PICK");
 
-        public RectoColor StartGameDetection => new RectoColor(
-            new Rectangle(1856, 999, 7, 20),
-            Color.FromArgb(176, 134, 80), 20, 32);
+        public RectoString StartGameDetection => new RectoString(
+            new Rectangle(619, 336, 228, 46),
+            "STANDARD");
 
         public Rectangle StartGameClickLocation => new Rectangle(432, 365, 123, 365);
 
@@ -104,21 +104,21 @@ namespace gwent_daily_reborn.Model.Settings
             "anywhere");
         
         /// <summary>
-        /// placeholder
+        /// Main screen - Choose Play between 4 options
         /// </summary>
         public RectoString ModalDialogButton7 => new RectoString(
-            new Rectangle(1, 1, 1, 1),
-            "1111111111111");
+            new Rectangle(956, 642, 81, 34),
+            "PLAY");
         
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 
         public RectoColor LeaderChargeOn => new RectoColor(
-            new Rectangle(35, 752, 5, 5),
-            Color.FromArgb(126, 24, 8), 50, 24);
+            new Rectangle(57, 784, 5, 5),
+            Color.FromArgb(154, 93, 37), 50, 24);
 
         public RectoColor LeaderChargeOff => new RectoColor(
-            new Rectangle(35, 752, 5, 5),
-            Color.FromArgb(75, 16, 9), 50, 24);
+            new Rectangle(57, 784, 5, 5),
+            Color.FromArgb(91, 67, 39), 50, 24);
 
         public Rectangle LeaderChargeLocationBig => new Rectangle(33, 902, 51, 51);
 

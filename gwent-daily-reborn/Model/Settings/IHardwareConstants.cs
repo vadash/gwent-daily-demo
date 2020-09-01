@@ -92,7 +92,7 @@ namespace gwent_daily_reborn.Model.Settings
         /// <summary>
         ///     Object to look for starting game stage
         /// </summary>
-        RectoColor StartGameDetection { get; }
+        RectoString StartGameDetection { get; }
 
         /// <summary>
         ///     Play -> Classic union zone

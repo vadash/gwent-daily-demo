@@ -7,6 +7,7 @@ using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using gwent_daily_reborn.Model.Cards;
 using gwent_daily_reborn.Model.GameInfo;
+using gwent_daily_reborn.Model.Helpers.Tooltip;
 using gwent_daily_reborn.Model.NN;
 using gwent_daily_reborn.Model.Recognition.ScreenShotManager;
 using gwent_daily_reborn.Model.Settings;
@@ -205,21 +206,25 @@ namespace gwent_daily_reborn.Model.Recognition
             {
                 var leaderChargeScreen = ssManager.CloneImage(Hardware.LeaderChargeOn.Rectangle);
                 var howManyToCheck = leaderChargeScreen.Width * leaderChargeScreen.Height * Hardware.LeaderChargeOn.Percent / 100;
-                return ImageCompare.SearchForPixel(
+                var result = ImageCompare.SearchForPixel(
                     leaderChargeScreen,
                     Hardware.LeaderChargeOn.Color,
                     Hardware.LeaderChargeOn.ColorVarience,
                     howManyToCheck);
+                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
+                return result;
             });
             var isLeaderOff = Task.Run(() =>
             {
                 var leaderChargeScreen = ssManager.CloneImage(Hardware.LeaderChargeOff.Rectangle);
                 var howManyToCheck = leaderChargeScreen.Width * leaderChargeScreen.Height * Hardware.LeaderChargeOff.Percent / 100;
-                return ImageCompare.SearchForPixel(
+                var result = ImageCompare.SearchForPixel(
                     leaderChargeScreen,
                     Hardware.LeaderChargeOff.Color,
                     Hardware.LeaderChargeOff.ColorVarience,
                     howManyToCheck);
+                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOff = {result}");
+                return result;
             });
             var isEnemyPassed = Task.Run(() =>
             {
@@ -260,14 +265,10 @@ namespace gwent_daily_reborn.Model.Recognition
             });
             var needStartGame = Task.Run(() =>
             {
-                var startGameScreen = ssManager.CloneImage(Hardware.StartGameDetection.Rectangle);
-                var howManyToCheck = startGameScreen.Width * startGameScreen.Height *
-                                     (Hardware.StartGameDetection.Percent / 100f);
-                return ImageCompare.SearchForPixel(
-                    startGameScreen,
-                    Hardware.StartGameDetection.Color,
-                    Hardware.StartGameDetection.ColorVarience,
-                    (int) howManyToCheck);
+                var image = ssManager.CloneImage(Hardware.StartGameDetection.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 127);
+                return Ocr.AreSame(
+                    Hardware.StartGameDetection.Text, image);
             });
             var isModalDialog1Opened = Task.Run(() =>
             {
