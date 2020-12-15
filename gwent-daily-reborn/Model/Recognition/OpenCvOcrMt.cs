@@ -199,7 +199,10 @@ namespace gwent_daily_reborn.Model.Recognition
         private static bool AreClose(string expected, string text)
         {
             expected = expected.ToUpper().Trim();
-            var variance = Math.Max(1, expected.Length / 4);
+            int variance;
+            if (expected.Length <= 1) variance = 0;
+            else if (expected.Length <= 2) variance = 1;
+            else variance = Math.Max(2, expected.Length / 4);
             return Distance(text, expected) <= variance;
         }
 

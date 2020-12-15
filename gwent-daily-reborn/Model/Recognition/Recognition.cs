@@ -192,7 +192,8 @@ namespace gwent_daily_reborn.Model.Recognition
             var isOurTurn = Task.Run(() =>
             {
                 var image = ssManager.CloneImage(Hardware.OurTurnDetection.Rectangle).Convert<Gray, byte>();
-                PreProcessText(image, 100);
+                PreProcessText(image, 192);
+                //image.Save("ocr.bmp");
                 return Ocr.AreSame(
                     Hardware.OurTurnDetection.Text,
                     image);
@@ -235,7 +236,8 @@ namespace gwent_daily_reborn.Model.Recognition
             var isEndTurn = Task.Run(() =>
             {
                 var image = ssManager.CloneImage(Hardware.EndTurnDetection.Rectangle).Convert<Gray, byte>();
-                PreProcessText(image, 127);
+                PreProcessText(image, 192);
+                //image.Save("ocr.bmp");
                 return Ocr.AreSame(Hardware.EndTurnDetection.Text, image);
             });
             var ourScore = Task.Run(() =>

@@ -26,7 +26,7 @@ namespace gwent_daily_reborn.Model.Settings
             Color.FromArgb(144, 112, 48), 10, 32);
 
         public RectoString OurTurnDetection => new RectoString(
-            new Rectangle(1828, 527, 64, 26),
+            new Rectangle(1820, 528, 60, 24),
             "PASS");
 
         public RectoString EndTurnDetection => new RectoString(
