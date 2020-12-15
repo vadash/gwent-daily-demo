@@ -641,6 +641,7 @@ namespace gwent_daily_reborn.Model.Control.Strategy
             #region Pass if not enough points
 
             if (Extra.CurrentRound == Rounds.FirstRound || Extra.CurrentRound == Rounds.WeLead)
+            {
                 if (Hand.Count() <= 4)
                 {
                     if (Extra.OurScore + GetHandValue() < Extra.EnemyScore)
@@ -659,7 +660,14 @@ namespace gwent_daily_reborn.Model.Control.Strategy
                         return true;
                     }
                 }
-
+            }
+            else if (Extra.OurScore + GetHandValue() < Extra.EnemyScore &&
+                     Hand.Count() <= 5)
+            {
+                tasks.Add(new PassTask("not enough to beat enemy. vi lost"));
+                return true;
+            }
+            
             #endregion
 
             #region Pass if enemy passed
