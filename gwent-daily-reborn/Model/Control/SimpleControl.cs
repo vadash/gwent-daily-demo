@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Threading;
 using gwent_daily_reborn.Model.Control.ActionManager;
 using gwent_daily_reborn.Model.Control.BotTasks;
@@ -119,6 +120,15 @@ namespace gwent_daily_reborn.Model.Control
                     {
                         new TooltipTask("Closing window #7"),
                         new MouseMoveTask(hardware.ModalDialogButton7.Rectangle),
+                        new LeftMouseClick(),
+                        new SleepTask(3000),
+                    };
+                    break;
+                case Info.CloseModalDialog8:
+                    tasks = new List<IBotTask>
+                    {
+                        new TooltipTask("Closing window #8"),
+                        new MouseMoveTask(new Rectangle(1862, 58, 5, 5)),
                         new LeftMouseClick(),
                         new SleepTask(3000),
                     };

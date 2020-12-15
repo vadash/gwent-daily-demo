@@ -68,6 +68,7 @@ namespace gwent_daily_reborn.Model.Recognition
         EnemyTurn,
         CloseModalDialog5,
         CloseModalDialog6,
-        CloseModalDialog7
+        CloseModalDialog7,
+        CloseModalDialog8
     }
 }

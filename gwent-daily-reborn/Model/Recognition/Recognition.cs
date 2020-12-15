@@ -150,6 +150,11 @@ namespace gwent_daily_reborn.Model.Recognition
                 info = Info.CloseModalDialog7;
                 return true;
             }
+            if (Extra.IsModalDialog8Opened == true)
+            {
+                info = Info.CloseModalDialog8;
+                return true;
+            }
             return false;
         }
 
@@ -320,6 +325,25 @@ namespace gwent_daily_reborn.Model.Recognition
                 return Ocr.AreSame(
                     Hardware.ModalDialogButton7.Text, image);
             });
+            var isModalDialog8Opened = Task.Run(() =>
+            {
+                var image = ssManager.CloneImage(Hardware.ModalDialogButton8.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 127);
+                return Ocr.AreSame(
+                    Hardware.ModalDialogButton8.Text, image);
+            });
+            var isModalDialog9Opened = Task.Run(() =>
+            {
+                return false;
+            });
+            var isModalDialog10Opened = Task.Run(() =>
+            {
+                return false;
+            });
+            var isModalDialog11Opened = Task.Run(() =>
+            {
+                return false;
+            });
             var isEndGameDefeat = Task.Run(() =>
             {
                 var image = ssManager.CloneImage(Hardware.EndGameResultLocation);
@@ -375,6 +399,8 @@ namespace gwent_daily_reborn.Model.Recognition
                 isModalDialog1Opened.Result, 
                 isModalDialog2Opened.Result, isModalDialog3Opened.Result, isModalDialog4Opened.Result,
                 isModalDialog5Opened.Result, isModalDialog6Opened.Result, isModalDialog7Opened.Result,
+                isModalDialog8Opened.Result, isModalDialog9Opened.Result, isModalDialog10Opened.Result,
+                isModalDialog11Opened.Result,
                 mustPlayCard.Result, undoAction.Result, enemyTurn.Result);
 
             return true;

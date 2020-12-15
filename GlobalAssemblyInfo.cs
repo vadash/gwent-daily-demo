@@ -8,4 +8,4 @@ using System.Reflection;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-[assembly: AssemblyVersion("8.0.2.*")]
+[assembly: AssemblyVersion("8.0.3.*")]

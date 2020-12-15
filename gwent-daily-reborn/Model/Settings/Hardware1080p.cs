@@ -110,6 +110,25 @@ namespace gwent_daily_reborn.Model.Settings
             new Rectangle(956, 642, 81, 34),
             "PLAY");
         
+        /// <summary>
+        /// Battle pass nag screen - press fat X
+        /// </summary>
+        public RectoString ModalDialogButton8 => new RectoString(
+            new Rectangle(17, 1031, 37, 17),
+            "VIEW"); // 1862 58 X
+        
+        public RectoString ModalDialogButton9 => new RectoString(
+            new Rectangle(1, 1, 1, 1),
+            "N/A");
+        
+        public RectoString ModalDialogButton10 => new RectoString(
+            new Rectangle(1, 1, 1, 1),
+            "N/A");
+        
+        public RectoString ModalDialogButton11 => new RectoString(
+            new Rectangle(1, 1, 1, 1),
+            "N/A");
+        
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 
         public RectoColor LeaderChargeOn => new RectoColor(

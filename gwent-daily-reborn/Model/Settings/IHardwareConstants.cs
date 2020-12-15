@@ -250,6 +250,15 @@ namespace gwent_daily_reborn.Model.Settings
         RectoString ModalDialogButton6 { get; }
         RectoString ModalDialogButton7 { get; }
 
+        /// <summary>
+        /// Battle pass nag screen - press fat X
+        /// </summary>
+        RectoString ModalDialogButton8 { get; }
+
+        RectoString ModalDialogButton9 { get; }
+        RectoString ModalDialogButton10 { get; }
+        RectoString ModalDialogButton11 { get; }
+
         #endregion
 
     }
