@@ -211,7 +211,7 @@ namespace gwent_daily_reborn.Model.Recognition
                     Hardware.LeaderChargeOn.Color,
                     Hardware.LeaderChargeOn.ColorVarience,
                     howManyToCheck);
-                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
+                //Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
                 return result;
             });
             var isLeaderOff = Task.Run(() =>
@@ -223,7 +223,7 @@ namespace gwent_daily_reborn.Model.Recognition
                     Hardware.LeaderChargeOff.Color,
                     Hardware.LeaderChargeOff.ColorVarience,
                     howManyToCheck);
-                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOff = {result}");
+                //Services.Container.GetInstance<ITooltip>().Show($"isLeaderOff = {result}");
                 return result;
             });
             var isEnemyPassed = Task.Run(() =>

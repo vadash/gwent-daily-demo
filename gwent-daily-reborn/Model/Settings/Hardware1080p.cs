@@ -30,7 +30,7 @@ namespace gwent_daily_reborn.Model.Settings
             "PASS");
 
         public RectoString EndTurnDetection => new RectoString(
-            new Rectangle(1834, 512, 52, 27),
+            new Rectangle(1826, 514, 48, 24),
             "END");
 
         public RectoString MulliganDetection => new RectoString(
