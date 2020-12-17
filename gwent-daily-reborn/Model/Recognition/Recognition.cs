@@ -20,9 +20,7 @@ namespace gwent_daily_reborn.Model.Recognition
         private readonly Image<Bgra, byte> Detect_endgame_draw;
         private readonly Image<Bgra, byte> Detect_endgame_streak;
         private readonly Image<Bgra, byte> Detect_endgame_victory;
-        private readonly Image<Bgra, byte> Usurper_lock;
         private readonly Image<Bgra, byte> Detect_Enemy_Turn;
-        private readonly Image<Bgra, byte> Detect_Must_Play_Card;
 
         public Recognition()
         {
@@ -33,9 +31,7 @@ namespace gwent_daily_reborn.Model.Recognition
                 Detect_endgame_draw = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_draw.png");
                 Detect_endgame_victory = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_victory.png");
                 Detect_endgame_streak = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_streak.png");
-                Usurper_lock = new Image<Bgra, byte>($@"images\{alias}\Usurper_lock.png");
                 Detect_Enemy_Turn = new Image<Bgra, byte>($@"images\{alias}\Detect_Enemy_Turn.png");
-                Detect_Must_Play_Card = new Image<Bgra, byte>($@"images\{alias}\Detect_must_play_card.png");
             }
             catch (Exception)
             {
@@ -205,8 +201,10 @@ namespace gwent_daily_reborn.Model.Recognition
             });
             var mustPlayCard = Task.Run(() =>
             {
-                var image = ssManager.CloneImage(Hardware.MustPlayCard);
-                return ImageCompare.AreSame(image, Detect_Must_Play_Card, 0.5);
+                var image = ssManager.CloneImage(Hardware.OurTurnDetection.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 192);
+                var text = Ocr.GetText(image);
+                return Ocr.Distance(text, "F. -S") < Ocr.Distance(text, "PASS");
             });
             var isLeaderOn = Task.Run(() =>
             {

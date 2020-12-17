@@ -39,5 +39,10 @@ namespace gwent_daily_reborn.Model.Recognition
         /// </summary>
         /// <returns>positive integer if success, -1 else</returns>
         int GetNumber(Image<Gray, byte> image);
+
+        /// <summary>
+        ///     Compute the Levenshtein distance between two strings
+        /// </summary>
+        int Distance(string s, string t);
     }
 }

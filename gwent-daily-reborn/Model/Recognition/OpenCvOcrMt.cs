@@ -196,7 +196,7 @@ namespace gwent_daily_reborn.Model.Recognition
         /// </summary>
         /// <param name="expected"></param>
         /// <param name="text"></param>
-        private static bool AreClose(string expected, string text)
+        private bool AreClose(string expected, string text)
         {
             expected = expected.ToUpper().Trim();
             int variance;
@@ -209,7 +209,7 @@ namespace gwent_daily_reborn.Model.Recognition
         /// <summary>
         ///     Compute the Levenshtein distance between two strings
         /// </summary>
-        private static int Distance(string s, string t)
+        public int Distance(string s, string t)
         {
             var n = s.Length;
             var m = t.Length;
