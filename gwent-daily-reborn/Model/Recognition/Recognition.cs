@@ -215,7 +215,7 @@ namespace gwent_daily_reborn.Model.Recognition
                     Hardware.LeaderChargeOn.Color,
                     Hardware.LeaderChargeOn.ColorVarience,
                     howManyToCheck);
-                //Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
+                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
                 return result;
             });
             var isLeaderOff = Task.Run(() =>
