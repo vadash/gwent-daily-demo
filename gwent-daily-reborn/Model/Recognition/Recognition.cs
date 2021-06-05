@@ -20,7 +20,6 @@ namespace gwent_daily_reborn.Model.Recognition
         private readonly Image<Bgra, byte> Detect_endgame_draw;
         private readonly Image<Bgra, byte> Detect_endgame_streak;
         private readonly Image<Bgra, byte> Detect_endgame_victory;
-        private readonly Image<Bgra, byte> Detect_Enemy_Turn;
 
         public Recognition()
         {
@@ -31,7 +30,6 @@ namespace gwent_daily_reborn.Model.Recognition
                 Detect_endgame_draw = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_draw.png");
                 Detect_endgame_victory = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_victory.png");
                 Detect_endgame_streak = new Image<Bgra, byte>($@"images\{alias}\Detect_endgame_streak.png");
-                Detect_Enemy_Turn = new Image<Bgra, byte>($@"images\{alias}\Detect_Enemy_Turn.png");
             }
             catch (Exception)
             {
@@ -204,7 +202,7 @@ namespace gwent_daily_reborn.Model.Recognition
                 var image = ssManager.CloneImage(Hardware.OurTurnDetection.Rectangle).Convert<Gray, byte>();
                 PreProcessText(image, 192);
                 var text = Ocr.GetText(image);
-                return Ocr.Distance(text, "F. -S") < Ocr.Distance(text, "PASS");
+                return Ocr.Distance(text, "F. -S") <= 1;
             });
             var isLeaderOn = Task.Run(() =>
             {
@@ -215,7 +213,6 @@ namespace gwent_daily_reborn.Model.Recognition
                     Hardware.LeaderChargeOn.Color,
                     Hardware.LeaderChargeOn.ColorVarience,
                     howManyToCheck);
-                Services.Container.GetInstance<ITooltip>().Show($"isLeaderOn = {result}");
                 return result;
             });
             var isLeaderOff = Task.Run(() =>
@@ -374,8 +371,12 @@ namespace gwent_daily_reborn.Model.Recognition
             });
             var enemyTurn = Task.Run(() =>
             {
-                var image = ssManager.CloneImage(Hardware.EnemyTurnDetection);
-                return ImageCompare.AreSame(image, Detect_Enemy_Turn);
+                var image = ssManager.CloneImage(Hardware.OurTurnDetection.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 192);
+                //image.Save("ocr.bmp");
+                return !Ocr.AreSame(
+                    Hardware.OurTurnDetection.Text,
+                    image);
             });
 
             #endregion

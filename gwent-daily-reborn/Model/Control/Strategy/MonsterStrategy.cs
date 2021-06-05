@@ -30,25 +30,6 @@ namespace gwent_daily_reborn.Model.Control.Strategy
         private IExtra Extra { get; } = Services.Container.GetInstance<IExtra>();
         private IGameMemory GameMemory { get; } = Services.Container.GetInstance<IGameMemory>();
 
-        private IEnumerable<Type> LeaderBuffList { get; } = new List<Type>
-        {
-            typeof(Werewolf),
-            typeof(AlphaWerewolf),
-            typeof(Plumard),
-            typeof(Cyclops),
-            typeof(Brewess),
-            typeof(Whispess),
-            typeof(Weavess),
-            typeof(OldSpeartip),
-            typeof(PrimordialDao),
-            typeof(OldSpeartipAsleep),
-            typeof(IceGiant),
-            typeof(Griffin),
-            typeof(Katakan),
-            typeof(WildHuntRider),
-            typeof(Golyat),
-        };
-
         private IEnumerable<Type> FromHighToLowStr { get; } = new List<Type>
         {
             typeof(Golyat), //10
@@ -154,47 +135,29 @@ namespace gwent_daily_reborn.Model.Control.Strategy
         private bool PickCardLogic(out ICollection<IBotTask> tasks)
         {
             tasks = new List<IBotTask>();
-            if (LeaderBuffMode)
-            {
-                LeaderBuffMode = false;
-                tasks.Add(new TooltipTask("Leader mode..."));
-                foreach (var cardType in LeaderBuffList)
-                    if (Mulligan.Contain(cardType))
+            foreach (var cardType in FromHighToLowStr)
+                if (Mulligan.Contain(cardType))
+                {
+                    if (GhoulMode || OzzrelMode)
                     {
-                        var zone = Mulligan.GetCard(cardType).Area;
-                        tasks.Add(new TooltipTask("Buffing..."));
-                        tasks.Add(new MouseMoveTask(zone));
-                        tasks.Add(new LeftMouseClick());
-                        tasks.Add(new SleepTask(1000));
-                        return true;
+                        GameMemory.DeleteFromGraveyard(cardType);
                     }
-            }
-            else
-            {
-                foreach (var cardType in FromHighToLowStr)
-                    if (Mulligan.Contain(cardType))
+                    if (WeavessIncantationMode)
                     {
-                        if (GhoulMode || OzzrelMode)
-                        {
-                            GameMemory.DeleteFromGraveyard(cardType);
-                        }
-                        if (WeavessIncantationMode)
-                        {
-                            GameMemory.AddToGraveyard(cardType);
-                        }
-
-                        GhoulMode = false;
-                        OzzrelMode = false;
-                        WeavessIncantationMode = false;
-
-                        var zone = Mulligan.GetCard(cardType).Area;
-                        tasks.Add(new TooltipTask("Consuming..."));
-                        tasks.Add(new MouseMoveTask(zone));
-                        tasks.Add(new LeftMouseClick());
-                        tasks.Add(new SleepTask(4000));
-                        return true;
+                        GameMemory.AddToGraveyard(cardType);
                     }
-            }
+
+                    GhoulMode = false;
+                    OzzrelMode = false;
+                    WeavessIncantationMode = false;
+
+                    var zone = Mulligan.GetCard(cardType).Area;
+                    tasks.Add(new TooltipTask("Consuming..."));
+                    tasks.Add(new MouseMoveTask(zone));
+                    tasks.Add(new LeftMouseClick());
+                    tasks.Add(new SleepTask(4000));
+                    return true;
+                }
             tasks.Add(new TooltipTask("Choosing random target..."));
             tasks.Add(new KeyboardTask(Messaging.VKeys.Left));
             tasks.Add(new KeyboardTask(Messaging.VKeys.Right));
@@ -417,7 +380,7 @@ namespace gwent_daily_reborn.Model.Control.Strategy
             // place foglet
             if (Hand.Contain(typeof(Foglet)) &&
                 (Hand.Contain(typeof(Cyclops)) || Hand.Contain(typeof(Brewess)) || Hand.Contain(typeof(CelaenoHarpy))))
-                return Hand.Play(typeof(Foglet), out tasks, Card.Rows.Melee);
+                return Hand.Play(typeof(Foglet), out tasks);
 
             #endregion
 
@@ -467,7 +430,7 @@ namespace gwent_daily_reborn.Model.Control.Strategy
             if (Hand.Contain(typeof(Nekker)))
                 return Hand.Play(typeof(Nekker), out tasks, leastBusyRow);
             if (Hand.Contain(typeof(Wyvern)) && Extra.EnemyScore >= 3)
-                return Hand.Play(typeof(Wyvern), out tasks, Card.Rows.Melee);
+                return Hand.Play(typeof(Wyvern), out tasks);
             if (Hand.Contain(typeof(NekkerWarrior)))
                 return Hand.Play(typeof(NekkerWarrior), out tasks, leastBusyRow);
             if (Hand.Contain(typeof(AlphaWerewolf)) &&
@@ -499,7 +462,7 @@ namespace gwent_daily_reborn.Model.Control.Strategy
                     Hand.Contain(typeof(IceGiant)))
                 {
                     WeavessIncantationMode = true;
-                    return Hand.Play(typeof(WeavessIncantation), out tasks, Card.Rows.Melee);
+                    return Hand.Play(typeof(WeavessIncantation), out tasks);
                 }
             if (Hand.Contain(typeof(IceGiant)))
                 return Hand.Play(typeof(IceGiant), out tasks, leastBusyRow);
@@ -547,7 +510,7 @@ namespace gwent_daily_reborn.Model.Control.Strategy
                     GameMemory.InGraveyard(typeof(Cyclops)))
                 {
                     GhoulMode = true;
-                    return Hand.Play(typeof(Ghoul), out tasks, Card.Rows.Melee);
+                    return Hand.Play(typeof(Ghoul), out tasks);
                 }
 
             if (Extra.CurrentRound != Rounds.FirstRound &&
@@ -561,25 +524,6 @@ namespace gwent_daily_reborn.Model.Control.Strategy
                     OzzrelMode = true;
                     return Hand.Play(typeof(Ozzrel), out tasks, Card.Rows.Ranged);
                 }
-
-            #endregion
-
-            #region Leader logic
-
-            if (Extra.CurrentRound != Rounds.FirstRound && 
-                Hand.Contain(typeof(WoodlandSpirit)))
-            {
-                LeaderBuffMode = true;
-                return Hand.Play(typeof(WoodlandSpirit), out tasks);
-            }
-            if (LeaderBuffMode &&
-                !Hand.Contain(typeof(WoodlandSpirit)))
-            {
-                LeaderBuffMode = false;
-                foreach (var card in FromHighToLowStr.Reverse())
-                    if (Hand.Contain(card))
-                        return Hand.Play(card, out tasks);
-            }
 
             #endregion
 
@@ -638,6 +582,16 @@ namespace gwent_daily_reborn.Model.Control.Strategy
 
         private bool PassLogic(ref ICollection<IBotTask> tasks)
         {
+            #region always pass round 3 for fast games
+
+            if (Extra.CurrentRound == Rounds.Draw)
+            {
+                tasks.Add(new PassTask("always pass round 3 for fast games"));
+                return true;
+            }            
+
+            #endregion
+           
             #region Pass if not enough points
 
             if (Extra.CurrentRound == Rounds.FirstRound || Extra.CurrentRound == Rounds.WeLead)
@@ -726,14 +680,12 @@ namespace gwent_daily_reborn.Model.Control.Strategy
 
         #region Persistence data. Cleared at game end
 
-        private bool LeaderBuffMode { get; set; }
         private bool GhoulMode { get; set; }
         private bool OzzrelMode { get; set; }
         private bool WeavessIncantationMode { get; set; }
 
         public void ResetAfterGame()
         {
-            LeaderBuffMode = false;
             GhoulMode = false;
             OzzrelMode = false;
             WeavessIncantationMode = false;

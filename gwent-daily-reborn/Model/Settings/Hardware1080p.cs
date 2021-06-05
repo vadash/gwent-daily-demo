@@ -132,12 +132,12 @@ namespace gwent_daily_reborn.Model.Settings
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 
         public RectoColor LeaderChargeOn => new RectoColor(
-            new Rectangle(60, 685, 5, 5),
-            Color.FromArgb(125, 23, 9), 50, 24);
+            new Rectangle(58, 822, 5, 5),
+            Color.FromArgb(128, 25, 9), 50, 24);
 
         public RectoColor LeaderChargeOff => new RectoColor(
-            new Rectangle(60, 685, 5, 5),
-            Color.FromArgb(73, 17, 9), 50, 24);
+            new Rectangle(58, 822, 5, 5),
+            Color.FromArgb(75, 18, 10), 50, 24);
 
         public Rectangle LeaderChargeLocationBig => new Rectangle(33, 902, 51, 51);
 
@@ -179,6 +179,6 @@ namespace gwent_daily_reborn.Model.Settings
 
         public Rectangle Emote6Thanks => new Rectangle(1270, 632, 59, 18);
 
-        public Rectangle EnemyTurnDetection => new Rectangle(1824, 519, 73, 35);
+        public Rectangle EnemyTurnDetection => new Rectangle(1811, 510, 69, 62);
     }
 }
