@@ -107,7 +107,7 @@ namespace gwent_daily_reborn.Model.Settings
         /// Main screen - Choose Play between 4 options
         /// </summary>
         public RectoString ModalDialogButton7 => new RectoString(
-            new Rectangle(956, 642, 81, 34),
+            new Rectangle(955, 630, 88, 47),
             "PLAY");
         
         /// <summary>
