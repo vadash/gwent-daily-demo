@@ -69,6 +69,7 @@ namespace gwent_daily_reborn.Model.Recognition
         CloseModalDialog5,
         CloseModalDialog6,
         CloseModalDialog7,
-        CloseModalDialog8
+        CloseModalDialog8,
+        CloseModalDialog9
     }
 }

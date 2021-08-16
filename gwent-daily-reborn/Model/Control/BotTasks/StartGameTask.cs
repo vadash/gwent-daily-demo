@@ -14,9 +14,6 @@ namespace gwent_daily_reborn.Model.Control.BotTasks
             mouse.Move(hardware.StartGameClickLocation);
             Utility.SleepSmall();
             mouse.Click();
-            mouse.Move(hardware.StartGameClickLocation);
-            Utility.SleepSmall();
-            mouse.Click();
             Utility.SleepHuge();
             return true;
         }

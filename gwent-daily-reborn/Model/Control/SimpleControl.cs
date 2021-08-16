@@ -133,6 +133,15 @@ namespace gwent_daily_reborn.Model.Control
                         new SleepTask(3000),
                     };
                     break;
+                case Info.CloseModalDialog9:
+                    tasks = new List<IBotTask>
+                    {
+                        new TooltipTask("Closing window #9"),
+                        new MouseMoveTask(hardware.ModalDialogButton9.Rectangle),
+                        new LeftMouseClick(),
+                        new SleepTask(3000),
+                    };
+                    break;
                 case Info.Stuck:
                     tasks = new List<IBotTask>
                         {
@@ -149,7 +158,7 @@ namespace gwent_daily_reborn.Model.Control
                     tasks = new List<IBotTask>
                         {
                             new TooltipTask("Enemy turn"),
-                            new BmTask(),
+                            //new BmTask(),
                         };
                     break;
                 #endregion

@@ -149,6 +149,11 @@ namespace gwent_daily_reborn.Model.Recognition
                 info = Info.CloseModalDialog8;
                 return true;
             }
+            if (Extra.IsModalDialog9Opened == true)
+            {
+                info = Info.CloseModalDialog9;
+                return true;
+            }
             return false;
         }
 
@@ -329,7 +334,10 @@ namespace gwent_daily_reborn.Model.Recognition
             });
             var isModalDialog9Opened = Task.Run(() =>
             {
-                return false;
+                var image = ssManager.CloneImage(Hardware.ModalDialogButton9.Rectangle).Convert<Gray, byte>();
+                PreProcessText(image, 127);
+                return Ocr.AreSame(
+                    Hardware.ModalDialogButton9.Text, image);
             });
             var isModalDialog10Opened = Task.Run(() =>
             {

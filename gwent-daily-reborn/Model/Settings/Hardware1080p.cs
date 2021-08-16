@@ -45,7 +45,7 @@ namespace gwent_daily_reborn.Model.Settings
             new Rectangle(619, 336, 228, 46),
             "STANDARD");
 
-        public Rectangle StartGameClickLocation => new Rectangle(432, 365, 123, 365);
+        public Rectangle StartGameClickLocation => new Rectangle(1566, 415, 122, 250);
 
         public RectoString EnemyPassedDetection => new RectoString(
             new Rectangle(882, 52, 157, 43),
@@ -116,10 +116,13 @@ namespace gwent_daily_reborn.Model.Settings
         public RectoString ModalDialogButton8 => new RectoString(
             new Rectangle(17, 1031, 37, 17),
             "VIEW"); // 1862 58 X
-        
+
+        /// <summary>
+        /// Training mode - Play
+        /// </summary>
         public RectoString ModalDialogButton9 => new RectoString(
-            new Rectangle(1, 1, 1, 1),
-            "N/A");
+            new Rectangle(820, 667, 86, 38),
+            "PLAY");
         
         public RectoString ModalDialogButton10 => new RectoString(
             new Rectangle(1, 1, 1, 1),

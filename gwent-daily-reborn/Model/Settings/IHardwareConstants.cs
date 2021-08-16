@@ -95,7 +95,7 @@ namespace gwent_daily_reborn.Model.Settings
         RectoString StartGameDetection { get; }
 
         /// <summary>
-        ///     Play -> Classic union zone
+        ///     Play -> Training union zone
         /// </summary>
         Rectangle StartGameClickLocation { get; }
 
@@ -255,7 +255,11 @@ namespace gwent_daily_reborn.Model.Settings
         /// </summary>
         RectoString ModalDialogButton8 { get; }
 
+        /// <summary>
+        /// Training mode - Play
+        /// </summary>
         RectoString ModalDialogButton9 { get; }
+        
         RectoString ModalDialogButton10 { get; }
         RectoString ModalDialogButton11 { get; }
 
